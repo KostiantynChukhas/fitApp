@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Fitapp Popup-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FitappPopup" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="FitappPopup" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mul-nr-Hj1">
+                                <rect key="frame" x="16" y="331.33333333333331" width="361" height="214.33333333333331"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="58H-8J-3aQ">
+                                        <rect key="frame" x="16" y="24" width="329" height="166.33333333333334"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeO-di-ShU">
+                                                <rect key="frame" x="0.0" y="0.0" width="329" height="24"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                                <color key="textColor" red="0.098039215690000001" green="0.12941176469999999" blue="0.14901960780000001" alpha="1" colorSpace="deviceRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your review will appear in the trainer's profile soon!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gg4-K1-gI8">
+                                                <rect key="frame" x="0.0" y="48" width="329" height="38.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" red="0.098039215690000001" green="0.12941176469999999" blue="0.14901960780000001" alpha="1" colorSpace="deviceRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="n2z-zD-laN">
+                                                <rect key="frame" x="0.0" y="110.33333333333337" width="329" height="56"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5b-0c-Ai0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="329" height="56"/>
+                                                        <color key="backgroundColor" red="0.73333333329999995" green="0.94901960780000005" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="OK">
+                                                            <color key="titleColor" red="0.098039215690000001" green="0.12941176469999999" blue="0.14901960780000001" alpha="1" colorSpace="deviceRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="okButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PR7-eh-IEB"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="iJj-W2-6Mx"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="58H-8J-3aQ" secondAttribute="trailing" constant="16" id="2q7-7Z-xYE"/>
+                                    <constraint firstItem="58H-8J-3aQ" firstAttribute="leading" secondItem="Mul-nr-Hj1" secondAttribute="leading" constant="16" id="Iyi-1K-HRr"/>
+                                    <constraint firstAttribute="bottom" secondItem="58H-8J-3aQ" secondAttribute="bottom" constant="24" id="Qep-Fd-eqj"/>
+                                    <constraint firstItem="58H-8J-3aQ" firstAttribute="top" secondItem="Mul-nr-Hj1" secondAttribute="top" constant="24" id="veg-04-uPE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="leading" secondItem="Mul-nr-Hj1" secondAttribute="leading" constant="-16" id="Bhm-3P-inA"/>
+                            <constraint firstItem="Mul-nr-Hj1" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="FkI-pj-Qbe"/>
+                            <constraint firstItem="Mul-nr-Hj1" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" constant="-16" id="J9M-Q8-am3"/>
+                            <constraint firstItem="Mul-nr-Hj1" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="el8-ea-LHM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="Mul-nr-Hj1" id="HM2-aQ-HPs"/>
+                        <outlet property="descriptionLabel" destination="gg4-K1-gI8" id="EBg-1s-zny"/>
+                        <outlet property="okButton" destination="l5b-0c-Ai0" id="Ff7-xB-nVG"/>
+                        <outlet property="titleLabel" destination="BeO-di-ShU" id="QwE-ba-TU9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

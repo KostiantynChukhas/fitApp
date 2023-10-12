@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Discover Search View Controller-->
+        <scene sceneID="84q-JP-mHX">
+            <objects>
+                <viewController storyboardIdentifier="DiscoverSearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Jeb-LA-Wdg" customClass="DiscoverSearchViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dys-Y8-KwT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="JD0-nw-eEm">
+                                <rect key="frame" x="8" y="75" width="299" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ykh-vT-Bkm"/>
+                                </constraints>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hys-BF-ETY">
+                                <rect key="frame" x="315" y="84.666666666666671" width="70" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="hES-Nt-UaQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" name="Button Color"/>
+                                </state>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="qXz-KP-Cuk">
+                                <rect key="frame" x="0.0" y="123" width="393" height="695"/>
+                                <color key="backgroundColor" name="Background"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CVR-Ek-EmD"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="Hys-BF-ETY" firstAttribute="leading" secondItem="JD0-nw-eEm" secondAttribute="trailing" constant="8" id="He1-JG-W6s"/>
+                            <constraint firstItem="JD0-nw-eEm" firstAttribute="top" secondItem="CVR-Ek-EmD" secondAttribute="top" constant="16" id="NJO-ID-bd2"/>
+                            <constraint firstItem="CVR-Ek-EmD" firstAttribute="trailing" secondItem="Hys-BF-ETY" secondAttribute="trailing" constant="8" id="RZ0-He-YEc"/>
+                            <constraint firstItem="qXz-KP-Cuk" firstAttribute="top" secondItem="JD0-nw-eEm" secondAttribute="bottom" id="abe-9M-EZc"/>
+                            <constraint firstItem="qXz-KP-Cuk" firstAttribute="bottom" secondItem="CVR-Ek-EmD" secondAttribute="bottom" id="nhB-hF-ZMR"/>
+                            <constraint firstItem="Hys-BF-ETY" firstAttribute="centerY" secondItem="JD0-nw-eEm" secondAttribute="centerY" id="qHc-qj-Npr"/>
+                            <constraint firstItem="qXz-KP-Cuk" firstAttribute="trailing" secondItem="CVR-Ek-EmD" secondAttribute="trailing" id="s59-IF-H3D"/>
+                            <constraint firstItem="qXz-KP-Cuk" firstAttribute="leading" secondItem="CVR-Ek-EmD" secondAttribute="leading" id="ubg-w5-zvp"/>
+                            <constraint firstItem="JD0-nw-eEm" firstAttribute="leading" secondItem="CVR-Ek-EmD" secondAttribute="leading" constant="8" id="ymX-i6-U7O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="JD0-nw-eEm" id="WFW-Cy-vlV"/>
+                        <outlet property="tableView" destination="qXz-KP-Cuk" id="7py-7O-y14"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVS-qY-5C9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

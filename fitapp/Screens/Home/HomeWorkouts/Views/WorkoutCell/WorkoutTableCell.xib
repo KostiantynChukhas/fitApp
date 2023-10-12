@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="231" id="KGk-i7-Jjw" customClass="WorkoutTableCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="327" height="231"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="327" height="231"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="37d-rA-Qhc">
+                        <rect key="frame" x="16" y="10" width="295" height="211"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qlq-IC-hWy">
+                                <rect key="frame" x="0.0" y="0.0" width="295" height="211"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NLa-jp-BLC" customClass="MBCircularProgressBarView">
+                                <rect key="frame" x="199" y="115" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="2yq-O4-IEd"/>
+                                    <constraint firstAttribute="height" constant="80" id="6xM-Uy-exD"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Quarantine Workout" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zui-5r-Slw">
+                                <rect key="frame" x="16" y="16" width="219" height="48"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WSA-yf-N8t">
+                                <rect key="frame" x="15.999999999999993" y="68" width="127.33333333333331" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Barbell green" translatesAutoresizingMaskIntoConstraints="NO" id="d6K-IB-pQR">
+                                        <rect key="frame" x="0.0" y="15" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="ah1-1q-Rgi"/>
+                                            <constraint firstAttribute="width" constant="20" id="ksF-ve-BnJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32 training days" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2N-Lc-7gP">
+                                        <rect key="frame" x="27.999999999999993" y="16.666666666666671" width="99.333333333333314" height="17"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                        <color key="textColor" name="Starship"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MpX-Cc-h6E">
+                                <rect key="frame" x="16" y="158" width="100" height="37"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advanced" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irz-QU-WoE">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="17"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="45t-aS-dUI" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="17" width="100" height="20"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="IG3-pS-kqb"/>
+                                            <constraint firstAttribute="height" constant="20" id="Ymv-wd-ufP"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="stars">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="MpX-Cc-h6E" firstAttribute="top" secondItem="WSA-yf-N8t" secondAttribute="bottom" constant="40" id="6bl-QM-nXj"/>
+                            <constraint firstItem="Zui-5r-Slw" firstAttribute="leading" secondItem="37d-rA-Qhc" secondAttribute="leading" constant="16" id="D1D-dg-x40"/>
+                            <constraint firstItem="Zui-5r-Slw" firstAttribute="top" secondItem="37d-rA-Qhc" secondAttribute="top" constant="16" id="KHi-xK-Inz"/>
+                            <constraint firstAttribute="trailing" secondItem="NLa-jp-BLC" secondAttribute="trailing" constant="16" id="TdN-Kt-0FS"/>
+                            <constraint firstAttribute="bottom" secondItem="Qlq-IC-hWy" secondAttribute="bottom" id="Vcl-2g-PKT"/>
+                            <constraint firstItem="MpX-Cc-h6E" firstAttribute="leading" secondItem="37d-rA-Qhc" secondAttribute="leading" constant="16" id="YDQ-nU-d7n"/>
+                            <constraint firstItem="Qlq-IC-hWy" firstAttribute="leading" secondItem="37d-rA-Qhc" secondAttribute="leading" id="cXj-Jl-7We"/>
+                            <constraint firstItem="Qlq-IC-hWy" firstAttribute="top" secondItem="37d-rA-Qhc" secondAttribute="top" id="eEZ-JN-ARB"/>
+                            <constraint firstAttribute="bottom" secondItem="MpX-Cc-h6E" secondAttribute="bottom" constant="16" id="gDv-p1-TaL"/>
+                            <constraint firstAttribute="trailing" secondItem="Zui-5r-Slw" secondAttribute="trailing" constant="60" id="jjg-MF-ydL"/>
+                            <constraint firstAttribute="bottom" secondItem="NLa-jp-BLC" secondAttribute="bottom" constant="16" id="lAZ-XJ-EDG"/>
+                            <constraint firstItem="WSA-yf-N8t" firstAttribute="top" secondItem="Zui-5r-Slw" secondAttribute="bottom" constant="4" id="myQ-sU-gWT"/>
+                            <constraint firstAttribute="trailing" secondItem="Qlq-IC-hWy" secondAttribute="trailing" id="rgK-1K-2ni"/>
+                            <constraint firstItem="WSA-yf-N8t" firstAttribute="leading" secondItem="37d-rA-Qhc" secondAttribute="leading" constant="16" id="ypt-nD-Yzv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="37d-rA-Qhc" secondAttribute="trailing" constant="16" id="9WL-cx-gsR"/>
+                    <constraint firstAttribute="bottom" secondItem="37d-rA-Qhc" secondAttribute="bottom" constant="10" id="M21-76-bpo"/>
+                    <constraint firstItem="37d-rA-Qhc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Rnj-4W-CgB"/>
+                    <constraint firstItem="37d-rA-Qhc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="aZY-Rt-XgN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="uBC-WE-UAO"/>
+            <connections>
+                <outlet property="containerView" destination="37d-rA-Qhc" id="SEQ-Da-Isp"/>
+                <outlet property="nameLabel" destination="Zui-5r-Slw" id="8Zw-Fs-Gim"/>
+                <outlet property="progressBar" destination="NLa-jp-BLC" id="rUo-up-xoL"/>
+                <outlet property="starsView" destination="45t-aS-dUI" id="lfT-RF-EcH"/>
+                <outlet property="trainingDaysLabel" destination="l2N-Lc-7gP" id="sEY-Kk-QTc"/>
+                <outlet property="typeLabel" destination="irz-QU-WoE" id="SlW-cZ-RoM"/>
+                <outlet property="workoutImageView" destination="Qlq-IC-hWy" id="FU5-7V-Q0W"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="129.92957746478874"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Barbell green" width="20" height="20"/>
+        <namedColor name="Starship">
+            <color red="0.73299998044967651" green="0.94900000095367432" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

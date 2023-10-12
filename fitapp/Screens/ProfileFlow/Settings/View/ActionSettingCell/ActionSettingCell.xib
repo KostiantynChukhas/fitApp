@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ActionSettingCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LiL-iu-Nvo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SignOut" translatesAutoresizingMaskIntoConstraints="NO" id="Coy-0U-ALW">
+                                <rect key="frame" x="16" y="12" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Pm2-3Q-eFl"/>
+                                    <constraint firstAttribute="width" constant="24" id="dIR-Zw-0sH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Log Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlr-Nw-KBm">
+                                <rect key="frame" x="52" y="14.666666666666666" width="258" height="18.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nlr-Nw-KBm" firstAttribute="leading" secondItem="Coy-0U-ALW" secondAttribute="trailing" constant="12" id="5ja-qc-iJ2"/>
+                            <constraint firstItem="Coy-0U-ALW" firstAttribute="leading" secondItem="LiL-iu-Nvo" secondAttribute="leading" constant="16" id="Nkg-v1-Ds8"/>
+                            <constraint firstAttribute="height" constant="48" id="UNu-LC-9p1"/>
+                            <constraint firstAttribute="trailing" secondItem="nlr-Nw-KBm" secondAttribute="trailing" constant="10" id="aQd-zP-Q8C"/>
+                            <constraint firstItem="nlr-Nw-KBm" firstAttribute="centerY" secondItem="LiL-iu-Nvo" secondAttribute="centerY" id="oYQ-Ci-Glz"/>
+                            <constraint firstItem="Coy-0U-ALW" firstAttribute="centerY" secondItem="LiL-iu-Nvo" secondAttribute="centerY" id="pcc-c2-tVF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LiL-iu-Nvo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DKU-J9-lDS"/>
+                    <constraint firstAttribute="trailing" secondItem="LiL-iu-Nvo" secondAttribute="trailing" id="NHg-rY-kTe"/>
+                    <constraint firstAttribute="bottom" secondItem="LiL-iu-Nvo" secondAttribute="bottom" id="UQc-SE-Zxp"/>
+                    <constraint firstItem="LiL-iu-Nvo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xy6-I9-3XX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconView" destination="Coy-0U-ALW" id="G7E-bw-boa"/>
+                <outlet property="titleLabel" destination="nlr-Nw-KBm" id="frw-2k-sR9"/>
+            </connections>
+            <point key="canvasLocation" x="94.656488549618317" y="12.323943661971832"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SignOut" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

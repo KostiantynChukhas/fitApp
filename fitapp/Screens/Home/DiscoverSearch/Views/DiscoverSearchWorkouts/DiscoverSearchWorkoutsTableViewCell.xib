@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="6IB-9a-STZ" customClass="DiscoverSearchWorkoutsTableViewCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="407" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6IB-9a-STZ" id="Bd8-1x-aiW">
+                <rect key="frame" x="0.0" y="0.0" width="407" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEl-cF-0N4">
+                        <rect key="frame" x="0.0" y="0.0" width="407" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TRb-KQ-eCz">
+                                <rect key="frame" x="0.0" y="0.0" width="407" height="80"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yax-hq-hQu">
+                                <rect key="frame" x="16" y="20.666666666666668" width="375" height="38.666666666666657"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full body with Arnold " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbC-Xm-7pX">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="19.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="16"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biceps and " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mG-JK-FbH">
+                                        <rect key="frame" x="0.0" y="19.333333333333336" width="375" height="19.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                        <color key="textColor" name="Light Text Color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yax-hq-hQu" secondAttribute="trailing" constant="16" id="3hW-8y-vnZ"/>
+                            <constraint firstItem="yax-hq-hQu" firstAttribute="centerY" secondItem="bEl-cF-0N4" secondAttribute="centerY" id="Eju-T1-ZY7"/>
+                            <constraint firstItem="TRb-KQ-eCz" firstAttribute="leading" secondItem="bEl-cF-0N4" secondAttribute="leading" id="VDp-iX-71f"/>
+                            <constraint firstAttribute="bottom" secondItem="TRb-KQ-eCz" secondAttribute="bottom" id="WwO-Wm-MaX"/>
+                            <constraint firstAttribute="trailing" secondItem="TRb-KQ-eCz" secondAttribute="trailing" id="ZRT-oR-Xjy"/>
+                            <constraint firstItem="yax-hq-hQu" firstAttribute="leading" secondItem="bEl-cF-0N4" secondAttribute="leading" constant="16" id="pk8-pI-c3C"/>
+                            <constraint firstAttribute="height" constant="80" id="s92-VY-C6h"/>
+                            <constraint firstItem="TRb-KQ-eCz" firstAttribute="top" secondItem="bEl-cF-0N4" secondAttribute="top" id="tOM-Ym-nUc"/>
+                            <constraint firstItem="yax-hq-hQu" firstAttribute="centerY" secondItem="bEl-cF-0N4" secondAttribute="centerY" id="zh3-I5-I0n"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="Background"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bEl-cF-0N4" secondAttribute="trailing" id="AnN-RI-8jI"/>
+                    <constraint firstAttribute="bottom" secondItem="bEl-cF-0N4" secondAttribute="bottom" id="eFL-fy-ZLr"/>
+                    <constraint firstItem="bEl-cF-0N4" firstAttribute="leading" secondItem="Bd8-1x-aiW" secondAttribute="leading" id="plj-14-dza"/>
+                    <constraint firstItem="bEl-cF-0N4" firstAttribute="top" secondItem="Bd8-1x-aiW" secondAttribute="top" id="s1t-3V-SvQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Psm-TJ-K9U"/>
+            <point key="canvasLocation" x="205.34351145038167" y="4.2253521126760569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Light Text Color">
+            <color red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

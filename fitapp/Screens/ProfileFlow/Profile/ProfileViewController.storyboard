@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ProfileViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ProfileViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="393" placeholderIntrinsicHeight="56" translatesAutoresizingMaskIntoConstraints="NO" id="SIC-Q4-dzi" customClass="ProfileTopBarView" customModule="fitapp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="56"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" placeholderIntrinsicWidth="393" placeholderIntrinsicHeight="160" translatesAutoresizingMaskIntoConstraints="NO" id="msO-wv-TXt" customClass="ProfileInfoView" customModule="fitapp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="115" width="393" height="160"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bbi-fA-gTh" customClass="ProfileContainerView" customModule="fitapp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="275" width="393" height="543"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ujg-4Q-SQb">
+                                <rect key="frame" x="0.0" y="275" width="393" height="543"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_private_profile" translatesAutoresizingMaskIntoConstraints="NO" id="SXg-Y8-ydq">
+                                        <rect key="frame" x="116.66666666666669" y="156.66666666666669" width="160" height="160"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a private profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NA5-sx-Zp8">
+                                        <rect key="frame" x="20" y="326.66666666666663" width="353" height="29"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                        <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="NA5-sx-Zp8" firstAttribute="centerX" secondItem="Ujg-4Q-SQb" secondAttribute="centerX" id="28Q-xI-mjF"/>
+                                    <constraint firstItem="SXg-Y8-ydq" firstAttribute="centerX" secondItem="Ujg-4Q-SQb" secondAttribute="centerX" id="3sV-v5-VUl"/>
+                                    <constraint firstItem="NA5-sx-Zp8" firstAttribute="leading" secondItem="Ujg-4Q-SQb" secondAttribute="leading" constant="20" id="55h-DQ-sLe"/>
+                                    <constraint firstItem="SXg-Y8-ydq" firstAttribute="centerY" secondItem="Ujg-4Q-SQb" secondAttribute="centerY" constant="-35" id="Jns-F3-F1a"/>
+                                    <constraint firstItem="NA5-sx-Zp8" firstAttribute="top" secondItem="SXg-Y8-ydq" secondAttribute="bottom" constant="10" id="cPY-xV-lN4"/>
+                                    <constraint firstAttribute="trailing" secondItem="NA5-sx-Zp8" secondAttribute="trailing" constant="20" id="yAz-Ad-gxN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Ujg-4Q-SQb" secondAttribute="trailing" id="00O-Nl-GxH"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Bbi-fA-gTh" secondAttribute="bottom" id="6J8-Ub-rTG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ujg-4Q-SQb" secondAttribute="bottom" id="6wj-Ef-4q5"/>
+                            <constraint firstItem="Bbi-fA-gTh" firstAttribute="top" secondItem="msO-wv-TXt" secondAttribute="bottom" id="FPC-FY-38g"/>
+                            <constraint firstItem="msO-wv-TXt" firstAttribute="top" secondItem="SIC-Q4-dzi" secondAttribute="bottom" id="WI6-bX-9G6"/>
+                            <constraint firstItem="SIC-Q4-dzi" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="WgS-Jo-WSn"/>
+                            <constraint firstItem="Bbi-fA-gTh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="clg-nm-7cd"/>
+                            <constraint firstItem="Ujg-4Q-SQb" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="db9-Ur-FpT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Bbi-fA-gTh" secondAttribute="trailing" id="ell-7D-4zF"/>
+                            <constraint firstItem="SIC-Q4-dzi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="gfZ-bv-KVb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="msO-wv-TXt" secondAttribute="trailing" id="j3c-7p-heb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="SIC-Q4-dzi" secondAttribute="trailing" id="rIX-at-kXA"/>
+                            <constraint firstItem="msO-wv-TXt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="tF2-Jl-Xpj"/>
+                            <constraint firstItem="Ujg-4Q-SQb" firstAttribute="top" secondItem="msO-wv-TXt" secondAttribute="bottom" id="yQE-uu-Dh4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="infoView" destination="msO-wv-TXt" id="w4V-Oc-46v"/>
+                        <outlet property="navBarView" destination="SIC-Q4-dzi" id="XSO-Nu-Pw6"/>
+                        <outlet property="privateProfileView" destination="Ujg-4Q-SQb" id="DAH-aP-qYS"/>
+                        <outlet property="segmentView" destination="Bbi-fA-gTh" id="kvR-l0-zmo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="-2"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="SIC-Q4-dzi">
+            <size key="intrinsicContentSize" width="393" height="56"/>
+        </designable>
+        <designable name="msO-wv-TXt">
+            <size key="intrinsicContentSize" width="393" height="160"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="ic_private_profile" width="160" height="160"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

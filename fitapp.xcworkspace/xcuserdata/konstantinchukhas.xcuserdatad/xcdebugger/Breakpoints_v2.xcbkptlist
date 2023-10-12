@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "71E245E3-CE13-425A-9E0D-6B3D4C5ECA82"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "357EFBA1-5E6D-425F-8535-514DE16AB689"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Resources/Networking/ResponseModels/DraftCommunityResponseModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "357EFBA1-5E6D-425F-8535-514DE16AB689 - de0e8174b5edba5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.DraftData.getFiles() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/ResponseModels/DraftCommunityResponseModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "751">
+               </Location>
+               <Location
+                  uuid = "357EFBA1-5E6D-425F-8535-514DE16AB689 - de0e8174b5edbadf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.DraftData.getFiles() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/ResponseModels/DraftCommunityResponseModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "751">
+               </Location>
+               <Location
+                  uuid = "357EFBA1-5E6D-425F-8535-514DE16AB689 - de0e8174b5edbadf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.DraftData.getFiles() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/ResponseModels/DraftCommunityResponseModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52D64921-3513-4E58-BDBB-5B9FB9165810"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityAddPost/CommunityAddPostViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "setupPostObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "52D64921-3513-4E58-BDBB-5B9FB9165810 - 5114dfde74e9f495"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityAddPostViewModel, fitapp.CommunityResponseModel) -&gt; () in fitapp.CommunityAddPostViewModel.setupPostObserving(with: RxSwift.Observable&lt;()&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityAddPost/CommunityAddPostViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "52D64921-3513-4E58-BDBB-5B9FB9165810 - 5114dfde74e9f495"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityAddPostViewModel, fitapp.CommunityResponseModel) -&gt; () in fitapp.CommunityAddPostViewModel.setupPostObserving(with: RxSwift.Observable&lt;()&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityAddPost/CommunityAddPostViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "148"
+                  endingLineNumber = "148"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A04F717-9415-40B1-9B9C-88397A30FF8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/LibraryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "setupEmptySearchObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D983DF7-B447-4C82-9C1A-CD8659DFD63D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/LibraryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "setupSearchObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA3AB089-E94C-4110-8524-7661C1A4B7AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "setupModelSelectedObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA3AB089-E94C-4110-8524-7661C1A4B7AB - e3ae7bffa2ec8b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in closure #1 (fitapp.SettingType) -&gt; () in fitapp.SettingsViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.SettingType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "EA3AB089-E94C-4110-8524-7661C1A4B7AB - e3ae7bffa2ec8b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in closure #1 (fitapp.SettingType) -&gt; () in fitapp.SettingsViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.SettingType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "EA3AB089-E94C-4110-8524-7661C1A4B7AB - b1ec28ee2eb4e1b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.SettingType) -&gt; () in fitapp.SettingsViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.SettingType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "839">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C9ABCDC-1A1D-4ABE-9D0D-4C9977890062"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "setupModelSelectedObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C9ABCDC-1A1D-4ABE-9D0D-4C9977890062 - 2f6998c4be11d221"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (fitapp.SettingType) -&gt; () in fitapp.SettingsViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.SettingType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "3C9ABCDC-1A1D-4ABE-9D0D-4C9977890062 - 2f6998c4be11d221"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (fitapp.SettingType) -&gt; () in fitapp.SettingsViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.SettingType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "3C9ABCDC-1A1D-4ABE-9D0D-4C9977890062 - b1ec28ee2eb4e61e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.SettingType) -&gt; () in fitapp.SettingsViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.SettingType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "767">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C22AB085-0070-48D3-9A82-4596EB83A364"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/Library Article/LibraryArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "setupSelectedIdObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC625C31-A49B-496C-BADC-81E6EC280961"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "setupSendCommentObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0D795B0-4BAE-4502-8CEF-495D2450BAD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/Library Article/LibraryArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "setupModelSelectedObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0D795B0-4BAE-4502-8CEF-495D2450BAD0 - 62beaeedf4e04805"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.LibraryArticleViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.LibraryModelSectionType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Library/Library%20Article/LibraryArticleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "307">
+               </Location>
+               <Location
+                  uuid = "A0D795B0-4BAE-4502-8CEF-495D2450BAD0 - b670eb1e73ec1ca7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.LibraryCommentsResponseModel) -&gt; () in fitapp.LibraryArticleViewModel.setupModelSelectedObserving(with: RxSwift.Observable&lt;fitapp.LibraryModelSectionType&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Library/Library%20Article/LibraryArticleViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "185">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6038A97-F887-46DA-9AB8-AA12C3CEFBA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/Library Article/LibraryArticleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "setupInput(input:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F6038A97-F887-46DA-9AB8-AA12C3CEFBA5 - dff98034b00665e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.LibraryArticleViewController.showTextView() -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Library/Library%20Article/LibraryArticleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "F6038A97-F887-46DA-9AB8-AA12C3CEFBA5 - dff98034b00665e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.LibraryArticleViewController.showTextView() -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Library/Library%20Article/LibraryArticleViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFAE6E62-4889-416C-997D-BEB600A22294"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
+            landmarkName = "method"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "AFAE6E62-4889-416C-997D-BEB600A22294 - aa3d7fccfce24a56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.FitappNetworkEndpoints.task.getter : Moya.Task"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "2908">
+               </Location>
+               <Location
+                  uuid = "AFAE6E62-4889-416C-997D-BEB600A22294 - aa3d7fccfce24a56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.FitappNetworkEndpoints.task.getter : Moya.Task"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "3240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3E5B4DA-870A-4D1B-9E02-830B04610AE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "method"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B3E5B4DA-870A-4D1B-9E02-830B04610AE9 - aa3d7fccfce24bca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.FitappNetworkEndpoints.task.getter : Moya.Task"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "4288">
+               </Location>
+               <Location
+                  uuid = "B3E5B4DA-870A-4D1B-9E02-830B04610AE9 - aa3d7fccfce24b2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.FitappNetworkEndpoints.task.getter : Moya.Task"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "4592">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "603D13D5-E685-41D4-935E-B87541993724"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityAddPost/CommunityAddPostViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "setupPostObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "603D13D5-E685-41D4-935E-B87541993724 - 5114dfde74e9f4b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityAddPostViewModel, fitapp.CommunityResponseModel) -&gt; () in fitapp.CommunityAddPostViewModel.setupPostObserving(with: RxSwift.Observable&lt;()&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityAddPost/CommunityAddPostViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "603D13D5-E685-41D4-935E-B87541993724 - 5114dfde74e9f4b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityAddPostViewModel, fitapp.CommunityResponseModel) -&gt; () in fitapp.CommunityAddPostViewModel.setupPostObserving(with: RxSwift.Observable&lt;()&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityAddPost/CommunityAddPostViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B09BF5F-6708-40A5-BC26-590C05A7BB80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "path"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4B09BF5F-6708-40A5-BC26-590C05A7BB80 - aa3d7fccfce24d3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.FitappNetworkEndpoints.task.getter : Moya.Task"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "2640">
+               </Location>
+               <Location
+                  uuid = "4B09BF5F-6708-40A5-BC26-590C05A7BB80 - aa3d7fccfce24d3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.FitappNetworkEndpoints.task.getter : Moya.Task"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Resources/Networking/Service/FitappNetworkServiceEndpoints.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "2816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B7ECEA9-CAF6-44EB-9A14-D2CFAFFF0D04"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "setupDislikeObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BF55965-FE63-4984-BE55-96D67F1D1AA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "setupCommentObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B59E2DC1-13BE-4384-B069-493823E88F3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunitySectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "dislikeTapObservable()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "659AEFEE-14D0-474F-A439-10557CE9A4BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunitySectionViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "Reactive"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79AB788E-B4BF-487D-AF80-A974358F03FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Common/Helppers/SessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C5F3577-8463-45F1-993E-27B7F26DC3EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Common/Helppers/SessionManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setUser(user:needToNotify:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E47C922-C44F-47B6-A3D1-1B10C97324AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "setupCommentsObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E47C922-C44F-47B6-A3D1-1B10C97324AB - 905ffeb18a450ff2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.SettingsViewModel, fitapp.UserResponseModel) -&gt; () in fitapp.SettingsViewModel.setupCommentsObserving(with: RxSwift.Observable&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "8E47C922-C44F-47B6-A3D1-1B10C97324AB - 905ffeb18a450ff2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.SettingsViewModel, fitapp.UserResponseModel) -&gt; () in fitapp.SettingsViewModel.setupCommentsObserving(with: RxSwift.Observable&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "178"
+                  endingLineNumber = "178"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10D2776E-9A40-4B53-A27A-0502CBF6C68D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "setupUpdateTypeAccountObserving(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10D2776E-9A40-4B53-A27A-0502CBF6C68D - a2fc746f860c532"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.SettingsViewModel, fitapp.UserResponseModel) -&gt; () in fitapp.SettingsViewModel.setupUpdateTypeAccountObserving(with: RxSwift.Observable&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "10D2776E-9A40-4B53-A27A-0502CBF6C68D - a2fc746f860c532"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.SettingsViewModel, fitapp.UserResponseModel) -&gt; () in fitapp.SettingsViewModel.setupUpdateTypeAccountObserving(with: RxSwift.Observable&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE720BEC-D89F-46CE-93FB-D02FBFC3AF67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/View/PhotoCell/View/LibraryArticleRowsCommentsCell/LibraryArticleRowsCommentsCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FE720BEC-D89F-46CE-93FB-D02FBFC3AF67 - acc9af186bd4ff6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.LibraryArticleRowsCommentsCell, Swift.Bool) -&gt; () in fitapp.LibraryArticleRowsCommentsCell.configure(with: fitapp.LibraryArticleCommentsModel, disposeBag: RxSwift.DisposeBag) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/View/PhotoCell/View/LibraryArticleRowsCommentsCell/LibraryArticleRowsCommentsCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "FE720BEC-D89F-46CE-93FB-D02FBFC3AF67 - b73c439298fb7557"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.LibraryArticleRowsCommentsCell, Swift.Bool) -&gt; () in fitapp.LibraryArticleRowsCommentsCell.configure(with: fitapp.LibraryArticleCommentsModel) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/View/PhotoCell/View/LibraryArticleRowsCommentsCell/LibraryArticleRowsCommentsCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD082E15-CCBE-496D-8E9F-52CDF65A4524"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/View/PhotoCell/View/LibraryArticleRowsCommentsCell/LibraryArticleRowsCommentsCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AD082E15-CCBE-496D-8E9F-52CDF65A4524 - 3c186b8361db559f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.LibraryArticleRowsCommentsCell, Swift.Bool) -&gt; () in fitapp.LibraryArticleRowsCommentsCell.configure(with: fitapp.LibraryArticleCommentsModel, disposeBag: RxSwift.DisposeBag) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/View/PhotoCell/View/LibraryArticleRowsCommentsCell/LibraryArticleRowsCommentsCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "AD082E15-CCBE-496D-8E9F-52CDF65A4524 - 48c0e15aee9ce7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.LibraryArticleRowsCommentsCell, Swift.Bool) -&gt; () in fitapp.LibraryArticleRowsCommentsCell.configure(with: fitapp.LibraryArticleCommentsModel) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/View/PhotoCell/View/LibraryArticleRowsCommentsCell/LibraryArticleRowsCommentsCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "130EEB97-08A1-4DA5-ABC1-5CC9DA38D920"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "setupLikeObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BFCB3D3-D4E8-436A-A730-6D459FC2B46E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "setupMoreObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BFCB3D3-D4E8-436A-A730-6D459FC2B46E - 85fa7c0423aec102"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "397">
+               </Location>
+               <Location
+                  uuid = "1BFCB3D3-D4E8-436A-A730-6D459FC2B46E - c1a10513de7f502d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityDetailViewModel, fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "1BFCB3D3-D4E8-436A-A730-6D459FC2B46E - c1a10513de7f504c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityDetailViewModel, fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "227"
+                  endingLineNumber = "227"
+                  offsetFromSymbolStart = "106">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53C85BD6-0014-4759-80D6-95AD7DDA5CDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailSectionModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C2F7C62-5AE3-4E11-B350-62C997C0BDAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailSectionModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "replyTapEvent"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3E675E2-9939-42B8-B775-08D0EBD90046"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailSectionModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "likeTapEvent"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "103AF3F3-AA6D-477E-9218-3A05BF8BA537"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/Library Article/LibraryArticleViewModels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "dislikeTapEvent"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBD09E31-6F97-4DC2-B269-E61554375D41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Library/Library Article/LibraryArticleViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "setupLikeObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "setupDislikeObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52 - 2548cf89e5c493e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.ProfileFeedsViewModel, fitapp.CommunityViewData) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.ProfileFeedsViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2225">
+               </Location>
+               <Location
+                  uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52 - 2548cf89e5c493e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.ProfileFeedsViewModel, fitapp.CommunityViewData) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.ProfileFeedsViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2459">
+               </Location>
+               <Location
+                  uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52 - f82a60c94766cf86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.CommunityCellViewModel) -&gt; Swift.Bool in closure #2 (fitapp.ProfileFeedsViewModel, fitapp.CommunityViewData) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.ProfileFeedsViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52 - 92f7613d6b746fce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.ProfileFeedsViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52 - 85c8cf51b543ead5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;fitapp.CommunityCellViewModel&gt;) -&gt; RxSwift.Observable&lt;fitapp.CommunityCellViewModel&gt; in fitapp.ProfileFeedsViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  uuid = "73D6BC60-44E2-4195-9A28-F445CA1E0B52 - 85c8cf51b543ead5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;fitapp.CommunityCellViewModel&gt;) -&gt; RxSwift.Observable&lt;fitapp.CommunityCellViewModel&gt; in fitapp.ProfileFeedsViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE0D5670-97E3-4628-BA96-598194614E58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "setupLikeObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DE0D5670-97E3-4628-BA96-598194614E58 - 8a555d3560a115aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.ProfileFeedsViewModel, fitapp.CommunityViewData) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.ProfileFeedsViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "2225">
+               </Location>
+               <Location
+                  uuid = "DE0D5670-97E3-4628-BA96-598194614E58 - 8a555d3560a115aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.ProfileFeedsViewModel, fitapp.CommunityViewData) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.ProfileFeedsViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "2459">
+               </Location>
+               <Location
+                  uuid = "DE0D5670-97E3-4628-BA96-598194614E58 - 819dfa33e389d15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.CommunityCellViewModel) -&gt; Swift.Bool in closure #2 (fitapp.ProfileFeedsViewModel, fitapp.CommunityViewData) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.ProfileFeedsViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85E2160B-EE8D-4613-BF2D-71E970AC5465"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Articles/ProfileArticlesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "setupArticlesObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C003C787-C1FF-4BE3-905A-34E46B8C04C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Articles/ProfileArticlesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "init(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8888DDE0-0A92-4A18-BEDE-439BABDE6E44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Articles/ProfileArticlesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "transform(_:outputHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1814579-05B8-4218-878F-9875D82F2842"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Articles/ProfileArticlesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "transform(_:outputHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E8CA51A-A8EB-4AEE-A3F8-8CA3D239DFCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Articles/ProfileArticlesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D468AE9-CBB9-41FC-8F8A-E9C12BA26A3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setupInput(input:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD138B53-C11C-44F9-81B1-D9D7108F188A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/ProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "setupView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8A3BF4A-3FB0-45E1-ACB0-10B0DBF911F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Feeds/ProfileFeedsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "setupFeedObserving(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A6D8238-5756-4130-8AB2-BFA162969921"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/ProfileEdit/Views/ProfileEditInputView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "textViewDidBeginEditing(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A6D8238-5756-4130-8AB2-BFA162969921 - 84436e33107f5282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.ProfileEditInputView.textViewDidBeginEditing(__C.UITextView) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/ProfileEdit/Views/ProfileEditInputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "647">
+               </Location>
+               <Location
+                  uuid = "8A6D8238-5756-4130-8AB2-BFA162969921 - 84436e33107f5282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.ProfileEditInputView.textViewDidBeginEditing(__C.UITextView) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/ProfileEdit/Views/ProfileEditInputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "674">
+               </Location>
+               <Location
+                  uuid = "8A6D8238-5756-4130-8AB2-BFA162969921 - 30431e8791c1848e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in fitapp.ProfileEditInputView.textViewDidBeginEditing(__C.UITextView) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/ProfileEdit/Views/ProfileEditInputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "8A6D8238-5756-4130-8AB2-BFA162969921 - 84436e33107f5282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.ProfileEditInputView.textViewDidBeginEditing(__C.UITextView) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/ProfileEdit/Views/ProfileEditInputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "8A6D8238-5756-4130-8AB2-BFA162969921 - 84436e33107f5282"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.ProfileEditInputView.textViewDidBeginEditing(__C.UITextView) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/ProfileEdit/Views/ProfileEditInputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
+                  offsetFromSymbolStart = "772">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6888C0CC-1DA3-40CD-99E5-AF2B1659A310"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/ProfileCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "963B30A9-4FA7-4293-978E-AB7BC5BA953B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/ProfileCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "126E5F6B-8CDF-42FF-99BB-7A678649C910"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/ProfileCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "setup(user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F945A337-E1D7-40FD-82D5-1EC3ED1BC2EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/ProfileViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "init(_:topSegmentViewModel:mainSegmentViewModel:user:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57C320DA-4730-4C01-8CF5-115B79B54A5A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/TopSegmentView/TopSegmentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "setupOutput(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57C320DA-4730-4C01-8CF5-115B79B54A5A - 246a9889eeba7715"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Foundation.IndexPath) -&gt; Swift.Optional&lt;(indexPath: Foundation.IndexPath, animated: Swift.Bool)&gt; in fitapp.TopSegmentView.setupOutput(fitapp.TopSegmentViewModel) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/TopSegmentView/TopSegmentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "563">
+               </Location>
+               <Location
+                  uuid = "57C320DA-4730-4C01-8CF5-115B79B54A5A - 246a9889eeba7715"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Foundation.IndexPath) -&gt; Swift.Optional&lt;(indexPath: Foundation.IndexPath, animated: Swift.Bool)&gt; in fitapp.TopSegmentView.setupOutput(fitapp.TopSegmentViewModel) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/TopSegmentView/TopSegmentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7EB4B5E-5ACF-4075-A841-450C4BD2ED00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/TopSegmentView/TopSegmentViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "setupIndexSelected(with:dataSource:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C7EB4B5E-5ACF-4075-A841-450C4BD2ED00 - 562feaa9cf8b29b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;fitapp.TopSegmentCollectionViewModelProtocol&gt;, Swift.Int) -&gt; () in fitapp.TopSegmentViewModel.setupIndexSelected(with: RxSwift.Observable&lt;Swift.Int&gt;, dataSource: RxSwift.Observable&lt;Swift.Array&lt;fitapp.TopSegmentCollectionViewModelProtocol&gt;&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/TopSegmentView/TopSegmentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "C7EB4B5E-5ACF-4075-A841-450C4BD2ED00 - 3e5cb893e476f474"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, fitapp.TopSegmentCollectionViewModelProtocol) -&gt; () in closure #2 (Swift.Array&lt;fitapp.TopSegmentCollectionViewModelProtocol&gt;, Swift.Int) -&gt; () in fitapp.TopSegmentViewModel.setupIndexSelected(with: RxSwift.Observable&lt;Swift.Int&gt;, dataSource: RxSwift.Observable&lt;Swift.Array&lt;fitapp.TopSegmentCollectionViewModelProtocol&gt;&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/TopSegmentView/TopSegmentViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "65">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6190D0B5-7FF1-4DC2-9F2A-85102A81BE7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/MainSegmentView/MainSegmentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "scrollTo(index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6190D0B5-7FF1-4DC2-9F2A-85102A81BE7F - 36baaa58e69a49bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.MainSegmentView.scrollTo(index: Swift.Int) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/MainSegmentView/MainSegmentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6190D0B5-7FF1-4DC2-9F2A-85102A81BE7F - 36baaa58e69a49bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.MainSegmentView.scrollTo(index: Swift.Int) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/ProfileFlow/Profile/View/ProfileContainerView/MainSegmentView/MainSegmentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1BA3051-C86D-46A6-8B18-C7112F08667E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Home/HomeDiscover/HomeDiscoverCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "searchDiscover()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2994CB71-7E51-4EF0-968D-2C06EF50387B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Analytics/AnalyticsCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "notifications()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB7F2174-D8B0-4CF9-8895-26072F7414D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Analytics/AnalyticsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "setupSelectedSegmentObserving(signal:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB7F2174-D8B0-4CF9-8895-26072F7414D9 - b0520fd3040ebe84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.AnalyticsViewModel.setupSelectedSegmentObserving(signal: RxSwift.Observable&lt;Swift.Int&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Analytics/AnalyticsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "CB7F2174-D8B0-4CF9-8895-26072F7414D9 - b0520fd3040ebe84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.AnalyticsViewModel.setupSelectedSegmentObserving(signal: RxSwift.Observable&lt;Swift.Int&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Analytics/AnalyticsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "CB7F2174-D8B0-4CF9-8895-26072F7414D9 - 91dca8d7b956d31b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((fitapp.AnalyticsViewModel, Swift.Int)) -&gt; () in fitapp.AnalyticsViewModel.setupSelectedSegmentObserving(signal: RxSwift.Observable&lt;Swift.Int&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Analytics/AnalyticsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "CB7F2174-D8B0-4CF9-8895-26072F7414D9 - 91dca8d7b956d2fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((fitapp.AnalyticsViewModel, Swift.Int)) -&gt; () in fitapp.AnalyticsViewModel.setupSelectedSegmentObserving(signal: RxSwift.Observable&lt;Swift.Int&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Analytics/AnalyticsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "CB7F2174-D8B0-4CF9-8895-26072F7414D9 - 91dca8d7b956d31b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((fitapp.AnalyticsViewModel, Swift.Int)) -&gt; () in fitapp.AnalyticsViewModel.setupSelectedSegmentObserving(signal: RxSwift.Observable&lt;Swift.Int&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Analytics/AnalyticsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B01ADA15-CB4F-427E-91A2-6A8FA0B0C674"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Home/HomeContainerView/HomeSegmentCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "configure(vc:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B01ADA15-CB4F-427E-91A2-6A8FA0B0C674 - 573964871ca62c76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.HomeSegmentCollectionViewCell.configure(vc: __C.UIViewController) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Home/HomeContainerView/HomeSegmentCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "59">
+               </Location>
+               <Location
+                  uuid = "B01ADA15-CB4F-427E-91A2-6A8FA0B0C674 - 624aec2e754b1cf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIView) -&gt; () in fitapp.HomeSegmentCollectionViewCell.configure(vc: __C.UIViewController) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Home/HomeContainerView/HomeSegmentCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0B1E45B-6522-41C3-BBFE-C3E27909C11F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "setupSections()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B0B1E45B-6522-41C3-BBFE-C3E27909C11F - 1fcde6e13f7cf683"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, fitapp.AddCommentCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupSendCommentObserving(with: RxSwift.Observable&lt;()&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "B0B1E45B-6522-41C3-BBFE-C3E27909C11F - 1fcde6e13f7cf683"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; RxSwift.PrimitiveSequence&lt;RxSwift.SingleTrait, fitapp.AddCommentCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupSendCommentObserving(with: RxSwift.Observable&lt;()&gt;) -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3555F922-49DA-415F-9F3A-36A1F2EC3AD8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "setupMoreObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3555F922-49DA-415F-9F3A-36A1F2EC3AD8 - 6a7a669c6425080a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;fitapp.CommunityArticleCommentsModel&gt;) -&gt; RxSwift.Observable&lt;fitapp.CommunityArticleCommentsModel&gt; in fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "3555F922-49DA-415F-9F3A-36A1F2EC3AD8 - 3e86ad43ab4cd538"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CommunityArticleCommentsModel&gt; in closure #2 (Swift.Array&lt;fitapp.CommunityArticleCommentsModel&gt;) -&gt; RxSwift.Observable&lt;fitapp.CommunityArticleCommentsModel&gt; in fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "226"
+                  endingLineNumber = "226"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF823A7C-B1B0-41CA-83CE-E6AB6FF49B3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "329"
+            endingLineNumber = "329"
+            landmarkName = "setupHeaderLikeObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CF823A7C-B1B0-41CA-83CE-E6AB6FF49B3A - 7915118a76c3169e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.CommunityDetailViewModel.setupHeaderDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "CF823A7C-B1B0-41CA-83CE-E6AB6FF49B3A - 420e0b9a6a64a37b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.CreateLikeCommunityResponseModel) -&gt; () in fitapp.CommunityDetailViewModel.setupHeaderDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "329"
+                  endingLineNumber = "329"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E6979B7-C17C-4464-B623-B764074B119D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
+            landmarkName = "setupDislikeObserving()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F324255-9AA0-4B99-B6AA-598F7ACD1C63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "305"
+            endingLineNumber = "305"
+            landmarkName = "setupDislikeObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F324255-9AA0-4B99-B6AA-598F7ACD1C63 - 5b30246b01a4eec3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "fitapp.CommunityDetailViewModel.setupHeaderLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "305"
+                  endingLineNumber = "305"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "1F324255-9AA0-4B99-B6AA-598F7ACD1C63 - 7e04a1417406385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.CreateLikeCommunityResponseModel) -&gt; () in fitapp.CommunityDetailViewModel.setupHeaderLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "305"
+                  endingLineNumber = "305"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9E360FD-39A5-4374-85B5-F246F6E3DEA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "setupCommentTextObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AB494B0-5943-4C54-8B3E-42B9FAB73F48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "setupModelSelectedObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23C31ECC-BC3D-4761-9EFB-48E0ADC69937"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "setupModelSelectedObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59990311-01D2-4BCB-B411-5869C6AA06AE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "setupSelectedIdObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4312183-1352-4A23-9F32-7D6BC4DC3FD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "setupReplyObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4312183-1352-4A23-9F32-7D6BC4DC3FD3 - 41c30f057a7b5a91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.CommunityModelSectionType) -&gt; Swift.Optional&lt;fitapp.CommunityArticleCommentsModel&gt; in closure #1 (Swift.Array&lt;fitapp.CommunityModelSectionType&gt;) -&gt; RxSwift.Observable&lt;Swift.Array&lt;fitapp.CommunityArticleCommentsModel&gt;&gt; in fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B4312183-1352-4A23-9F32-7D6BC4DC3FD3 - 41c30f057a7b5a91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (fitapp.CommunityModelSectionType) -&gt; Swift.Optional&lt;fitapp.CommunityArticleCommentsModel&gt; in closure #1 (Swift.Array&lt;fitapp.CommunityModelSectionType&gt;) -&gt; RxSwift.Observable&lt;Swift.Array&lt;fitapp.CommunityArticleCommentsModel&gt;&gt; in fitapp.CommunityDetailViewModel.setupLikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "221"
+                  endingLineNumber = "221"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "983CE371-5945-4837-A3D5-7DB8804E9865"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Resources/Networking/Service/FitappNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "createLikeCommunity(requestData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3BEB659-5050-43BA-85D9-785C81D5669D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/Views/CommunityCommentsCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3BEB659-5050-43BA-85D9-785C81D5669D - e9ca416e9de6aa78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.CommunityCommentsCell, Swift.Bool) -&gt; () in fitapp.CommunityCommentsCell.configure(with: fitapp.CommunityArticleCommentsModel) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/Views/CommunityCommentsCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "D3BEB659-5050-43BA-85D9-785C81D5669D - e9ca416e9de6aa9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (fitapp.CommunityCommentsCell, Swift.Bool) -&gt; () in fitapp.CommunityCommentsCell.configure(with: fitapp.CommunityArticleCommentsModel) -&gt; ()"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/Views/CommunityCommentsCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6D3BC87-3082-41A9-8FD7-777A74EDEE48"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "setupModelSelectedObserving(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6707AFCF-16B1-4E18-8B2F-1FFE1AF9861C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "CommunityDetailViewModel"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "6707AFCF-16B1-4E18-8B2F-1FFE1AF9861C - b968ef9738c3c892"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityDetailViewModel, fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "278"
+                  endingLineNumber = "278"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "6707AFCF-16B1-4E18-8B2F-1FFE1AF9861C - b968ef9738c3c892"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityDetailViewModel, fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "278"
+                  endingLineNumber = "278"
+                  offsetFromSymbolStart = "732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4C23310-7680-43D6-8FD2-C956EB227C63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
+            landmarkName = "setupLikeObserving()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4C23310-7680-43D6-8FD2-C956EB227C63 - b968ef9738c3c835"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityDetailViewModel, fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "275"
+                  endingLineNumber = "275"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "A4C23310-7680-43D6-8FD2-C956EB227C63 - b968ef9738c3cbcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (fitapp.CommunityDetailViewModel, fitapp.CommunityArticleCommentsModel) -&gt; RxSwift.Observable&lt;fitapp.CreateLikeCommunityResponseModel&gt; in fitapp.CommunityDetailViewModel.setupDislikeObserving() -&gt; RxSwift.Disposable"
+                  moduleName = "fitapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantinchukhas/DEVELOP/FitApp/fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "269"
+                  endingLineNumber = "269"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E56C1485-6C4A-44EA-8D1E-9DE7F5578DD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fitapp/Screens/Community/CommunityDetail/CommunityDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "CommunityDetailViewModel"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

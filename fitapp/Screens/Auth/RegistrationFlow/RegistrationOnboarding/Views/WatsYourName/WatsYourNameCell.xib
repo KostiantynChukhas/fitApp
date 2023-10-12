@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="WatsYourNameCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="482"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="482"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bql-Mc-ZDf">
+                        <rect key="frame" x="0.0" y="0.0" width="485" height="482"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s your name?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bW6-NK-qD8">
+                                <rect key="frame" x="40" y="30" width="385" height="29"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                <color key="textColor" name="Text Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gmn-Xd-GJ7">
+                                <rect key="frame" x="40" y="109" width="405" height="40"/>
+                                <color key="tintColor" name="Text Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pWq-vH-lP4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="bW6-NK-qD8" firstAttribute="top" secondItem="bql-Mc-ZDf" secondAttribute="top" constant="30" id="EO3-xE-w8w"/>
+                            <constraint firstAttribute="trailing" secondItem="bW6-NK-qD8" secondAttribute="trailing" constant="60" id="R62-Hj-Cjp"/>
+                            <constraint firstAttribute="trailing" secondItem="gmn-Xd-GJ7" secondAttribute="trailing" constant="40" id="j40-Xg-1Dk"/>
+                            <constraint firstItem="gmn-Xd-GJ7" firstAttribute="top" secondItem="bW6-NK-qD8" secondAttribute="bottom" constant="50" id="u63-rB-75y"/>
+                            <constraint firstItem="bW6-NK-qD8" firstAttribute="leading" secondItem="bql-Mc-ZDf" secondAttribute="leading" constant="40" id="wQR-ce-Mwt"/>
+                            <constraint firstItem="gmn-Xd-GJ7" firstAttribute="leading" secondItem="bql-Mc-ZDf" secondAttribute="leading" constant="40" id="xt2-s0-ShE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="Background"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bql-Mc-ZDf" secondAttribute="bottom" id="Fui-AV-gg1"/>
+                <constraint firstItem="bql-Mc-ZDf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="alS-H1-JP9"/>
+                <constraint firstAttribute="trailing" secondItem="bql-Mc-ZDf" secondAttribute="trailing" id="pgC-00-jpe"/>
+                <constraint firstItem="bql-Mc-ZDf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zve-KF-PCO"/>
+            </constraints>
+            <size key="customSize" width="485" height="482"/>
+            <connections>
+                <outlet property="textField" destination="gmn-Xd-GJ7" id="yPw-Oa-ngh"/>
+            </connections>
+            <point key="canvasLocation" x="261.83206106870227" y="42.95774647887324"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

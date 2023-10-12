@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FitDoneAlertView" customModule="fitapp" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="0JO-Pg-48T" id="vTd-Gg-JAU"/>
+                <outlet property="continueButton" destination="gLq-PU-x44" id="LMS-2w-Vha"/>
+                <outlet property="lbMsg" destination="36W-7b-v3K" id="trj-PZ-XPc"/>
+                <outlet property="lbTitle" destination="m3p-dr-A1S" id="vbb-oc-2NE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="Ef6-CW-Cjq">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.60000002384185791" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejZ-cB-yi8">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0JO-Pg-48T">
+                    <rect key="frame" x="16" y="259" width="361" height="231"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Why are you reporting uyin_987?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAv-9Q-kGO">
+                            <rect key="frame" x="16" y="65" width="329" height="18.666666666666671"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLq-PU-x44" customClass="RoundedButton" customModule="fitapp" customModuleProvider="target">
+                            <rect key="frame" x="40" y="151" width="281" height="56"/>
+                            <color key="backgroundColor" name="Button Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="95g-vB-nvN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Continue"/>
+                            <connections>
+                                <action selector="continueButtonAction:" destination="-1" eventType="touchUpInside" id="HoG-OW-3lx"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Done!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3p-dr-A1S">
+                            <rect key="frame" x="16" y="16" width="329" height="36"/>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="30"/>
+                            <color key="textColor" name="Text Color"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="231" id="9eA-GN-BwD"/>
+                        <constraint firstItem="m3p-dr-A1S" firstAttribute="leading" secondItem="0JO-Pg-48T" secondAttribute="leading" constant="16" id="MaS-pI-2JN"/>
+                        <constraint firstAttribute="bottom" secondItem="gLq-PU-x44" secondAttribute="bottom" constant="24" id="Qh9-V2-o5L"/>
+                        <constraint firstAttribute="trailing" secondItem="m3p-dr-A1S" secondAttribute="trailing" constant="16" id="TPj-wZ-zGu"/>
+                        <constraint firstAttribute="trailing" secondItem="PAv-9Q-kGO" secondAttribute="trailing" constant="16" id="mtu-dy-Id3"/>
+                        <constraint firstAttribute="trailing" secondItem="gLq-PU-x44" secondAttribute="trailing" constant="40" id="qwD-Vb-DaA"/>
+                        <constraint firstItem="gLq-PU-x44" firstAttribute="leading" secondItem="0JO-Pg-48T" secondAttribute="leading" constant="40" id="sNG-w4-svc"/>
+                        <constraint firstItem="m3p-dr-A1S" firstAttribute="top" secondItem="0JO-Pg-48T" secondAttribute="top" constant="16" id="zNS-Ae-YQo"/>
+                        <constraint firstItem="PAv-9Q-kGO" firstAttribute="leading" secondItem="0JO-Pg-48T" secondAttribute="leading" constant="16" id="zfH-29-L5n"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36W-7b-v3K">
+                    <rect key="frame" x="43" y="335" width="307" height="38.666666666666686"/>
+                    <string key="text">A new password has been sent 
+to your email.</string>
+                    <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="16"/>
+                    <color key="textColor" name="Light Text Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="9n7-sU-6XT"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ejZ-cB-yi8" secondAttribute="trailing" id="Gse-DK-hGt"/>
+                <constraint firstItem="9n7-sU-6XT" firstAttribute="trailing" secondItem="36W-7b-v3K" secondAttribute="trailing" constant="43" id="MNz-97-fcA"/>
+                <constraint firstItem="36W-7b-v3K" firstAttribute="leading" secondItem="9n7-sU-6XT" secondAttribute="leading" constant="43" id="QGb-KU-bMx"/>
+                <constraint firstItem="ejZ-cB-yi8" firstAttribute="leading" secondItem="Ef6-CW-Cjq" secondAttribute="leading" id="Zc2-58-WQQ"/>
+                <constraint firstItem="0JO-Pg-48T" firstAttribute="centerX" secondItem="Ef6-CW-Cjq" secondAttribute="centerX" id="c5F-Sa-g8C"/>
+                <constraint firstAttribute="bottom" secondItem="ejZ-cB-yi8" secondAttribute="bottom" id="gLw-bB-Phh"/>
+                <constraint firstAttribute="trailing" secondItem="0JO-Pg-48T" secondAttribute="trailing" constant="16" id="gdG-uq-Evm"/>
+                <constraint firstItem="ejZ-cB-yi8" firstAttribute="top" secondItem="Ef6-CW-Cjq" secondAttribute="top" id="qfW-wo-o7R"/>
+                <constraint firstItem="36W-7b-v3K" firstAttribute="top" secondItem="m3p-dr-A1S" secondAttribute="bottom" constant="24" id="wOM-3y-DNi"/>
+                <constraint firstItem="0JO-Pg-48T" firstAttribute="leading" secondItem="Ef6-CW-Cjq" secondAttribute="leading" constant="16" id="yZm-Yn-B0g"/>
+                <constraint firstItem="0JO-Pg-48T" firstAttribute="top" secondItem="9n7-sU-6XT" secondAttribute="top" constant="200" id="zne-Nz-75W"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-295.41984732824426" y="-35.211267605633807"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="gLq-PU-x44">
+            <size key="intrinsicContentSize" width="74" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Light Text Color">
+            <color red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

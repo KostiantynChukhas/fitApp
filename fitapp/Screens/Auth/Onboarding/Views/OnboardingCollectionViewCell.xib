@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="OnboardingCollectionViewCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="619" height="1000"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="619" height="1000"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8KF-ea-RLM" customClass="GradientImageView" customModule="fitapp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="619" height="600"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KnD-aA-SRy">
+                        <rect key="frame" x="16" y="610" width="587" height="154"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23z-Hh-zEu">
+                                <rect key="frame" x="0.0" y="0.0" width="587" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="0xP-xX-xBE"/>
+                                </constraints>
+                                <string key="text">Welcome back! 
+Glad to see you, Again!</string>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                <color key="textColor" name="Text Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veP-wW-iZd">
+                                <rect key="frame" x="0.0" y="82" width="587" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="qCB-fh-gsP"/>
+                                </constraints>
+                                <string key="text">Heading Heading Heading Heading Heading
+There is no instant way to a healthy lifeHeading Heading Heading Heading Heading</string>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="15"/>
+                                <color key="textColor" name="Oslo Gray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KnD-aA-SRy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="FZk-e9-B6c"/>
+                <constraint firstItem="KnD-aA-SRy" firstAttribute="top" secondItem="8KF-ea-RLM" secondAttribute="bottom" constant="10" id="XWb-9A-hKF"/>
+                <constraint firstItem="8KF-ea-RLM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cpe-BW-fgS"/>
+                <constraint firstAttribute="trailing" secondItem="8KF-ea-RLM" secondAttribute="trailing" id="dAF-Eh-sfL"/>
+                <constraint firstItem="8KF-ea-RLM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dk3-6Q-Tbw"/>
+                <constraint firstAttribute="trailing" secondItem="KnD-aA-SRy" secondAttribute="trailing" constant="16" id="j7l-B6-oXp"/>
+                <constraint firstItem="8KF-ea-RLM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="r2S-Jv-Dgk"/>
+                <constraint firstItem="8KF-ea-RLM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ria-qC-WIe"/>
+                <constraint firstItem="8KF-ea-RLM" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.6" id="ujA-rC-NAm"/>
+            </constraints>
+            <size key="customSize" width="619" height="1058"/>
+            <connections>
+                <outlet property="descLabel" destination="veP-wW-iZd" id="jiu-0B-Aly"/>
+                <outlet property="imgView" destination="8KF-ea-RLM" id="vKQ-A9-N1w"/>
+                <outlet property="titleLabel" destination="23z-Hh-zEu" id="hlV-ol-FnW"/>
+            </connections>
+            <point key="canvasLocation" x="254.61538461538461" y="222.51184834123222"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Oslo Gray">
+            <color red="0.54117647058823526" green="0.5607843137254902" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

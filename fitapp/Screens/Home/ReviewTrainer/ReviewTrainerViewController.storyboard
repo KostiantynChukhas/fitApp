@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Review Trainer View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ReviewTrainerViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ReviewTrainerViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yt-1m-7AW">
+                                <rect key="frame" x="0.0" y="278" width="393" height="574"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your rate?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tum-QO-iJa">
+                                        <rect key="frame" x="20" y="24" width="353" height="24"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="reL-jS-2mt" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="80.666666666666686" y="64" width="232" height="42"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="4Kr-ZY-5X4"/>
+                                            <constraint firstAttribute="width" constant="232" id="J54-lM-JxL"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27t-FJ-5zF">
+                                        <rect key="frame" x="20" y="130" width="353" height="48"/>
+                                        <string key="text">Please share your review
+about this trainer</string>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujc-n4-GHt">
+                                        <rect key="frame" x="16" y="468" width="361" height="56"/>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.71764705882352942" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="deviceRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="JKu-ig-nCi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Leave review">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Njb-fl-wNy" customClass="PlaceholderTextView" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="194" width="361" height="124"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="124" id="EOs-IE-3I7"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.098039215686274508" green="0.12941176470588234" blue="0.14901960784313725" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Your review"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ds1-nO-Tl6" customClass="ReviewPhotosCollectionView" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="342" width="361" height="102"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="102" id="fNU-zI-86Y"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZA-l6-Mxg">
+                                        <rect key="frame" x="357" y="12" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="P81-Pw-GG4"/>
+                                            <constraint firstAttribute="height" constant="24" id="dYb-5L-toR"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="X"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Tum-QO-iJa" secondAttribute="trailing" constant="20" id="7Rv-cp-BJd"/>
+                                    <constraint firstItem="reL-jS-2mt" firstAttribute="top" secondItem="Tum-QO-iJa" secondAttribute="bottom" constant="16" id="8G8-ba-0eK"/>
+                                    <constraint firstItem="ds1-nO-Tl6" firstAttribute="leading" secondItem="5yt-1m-7AW" secondAttribute="leading" constant="16" id="C8U-VZ-ZBq"/>
+                                    <constraint firstAttribute="trailing" secondItem="27t-FJ-5zF" secondAttribute="trailing" constant="20" id="CDV-ar-EPR"/>
+                                    <constraint firstItem="ds1-nO-Tl6" firstAttribute="top" secondItem="Njb-fl-wNy" secondAttribute="bottom" constant="24" id="FL0-ut-ZQc"/>
+                                    <constraint firstItem="27t-FJ-5zF" firstAttribute="top" secondItem="reL-jS-2mt" secondAttribute="bottom" constant="24" id="GDV-j6-2GK"/>
+                                    <constraint firstItem="reL-jS-2mt" firstAttribute="centerX" secondItem="Tum-QO-iJa" secondAttribute="centerX" id="KG2-qy-vAY"/>
+                                    <constraint firstItem="Njb-fl-wNy" firstAttribute="leading" secondItem="5yt-1m-7AW" secondAttribute="leading" constant="16" id="RL7-9C-UIo"/>
+                                    <constraint firstItem="Tum-QO-iJa" firstAttribute="leading" secondItem="5yt-1m-7AW" secondAttribute="leading" constant="20" id="Wbt-Eo-eZc"/>
+                                    <constraint firstItem="MZA-l6-Mxg" firstAttribute="top" secondItem="5yt-1m-7AW" secondAttribute="top" constant="12" id="blM-vH-Kui"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ujc-n4-GHt" secondAttribute="trailing" constant="16" id="gd2-rt-Ug7"/>
+                                    <constraint firstAttribute="trailing" secondItem="Njb-fl-wNy" secondAttribute="trailing" constant="16" id="ghD-kq-dTS"/>
+                                    <constraint firstItem="Njb-fl-wNy" firstAttribute="top" secondItem="27t-FJ-5zF" secondAttribute="bottom" constant="16" id="hUS-68-e7f"/>
+                                    <constraint firstItem="Ujc-n4-GHt" firstAttribute="top" secondItem="ds1-nO-Tl6" secondAttribute="bottom" constant="24" id="iAw-Ar-J5Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="MZA-l6-Mxg" secondAttribute="trailing" constant="12" id="mbu-uj-6Tx"/>
+                                    <constraint firstItem="Ujc-n4-GHt" firstAttribute="leading" secondItem="5yt-1m-7AW" secondAttribute="leading" constant="16" id="qg4-MT-mmd"/>
+                                    <constraint firstItem="Tum-QO-iJa" firstAttribute="top" secondItem="5yt-1m-7AW" secondAttribute="top" constant="24" id="uFN-hy-gaX"/>
+                                    <constraint firstAttribute="trailing" secondItem="ds1-nO-Tl6" secondAttribute="trailing" constant="16" id="uwg-be-ocs"/>
+                                    <constraint firstItem="27t-FJ-5zF" firstAttribute="leading" secondItem="5yt-1m-7AW" secondAttribute="leading" constant="20" id="w5d-GN-yxX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5yt-1m-7AW" secondAttribute="bottom" id="4bT-ts-IiR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="5yt-1m-7AW" secondAttribute="trailing" id="ChR-rU-bhC"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Ujc-n4-GHt" secondAttribute="bottom" constant="16" id="Jek-iz-FAz"/>
+                            <constraint firstItem="5yt-1m-7AW" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="cmr-cM-7TS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="MZA-l6-Mxg" id="uFF-w5-R1u"/>
+                        <outlet property="containerView" destination="5yt-1m-7AW" id="YeQ-id-7AM"/>
+                        <outlet property="detailsLabel" destination="27t-FJ-5zF" id="4zZ-sU-5eE"/>
+                        <outlet property="photosCollectionView" destination="ds1-nO-Tl6" id="PNp-LH-k6n"/>
+                        <outlet property="reviewButton" destination="Ujc-n4-GHt" id="Xt8-wU-UYd"/>
+                        <outlet property="starsView" destination="reL-jS-2mt" id="jkk-Vc-Qij"/>
+                        <outlet property="textView" destination="Njb-fl-wNy" id="FcI-nP-tLH"/>
+                        <outlet property="titleLabel" destination="Tum-QO-iJa" id="8M7-GB-kef"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="X" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

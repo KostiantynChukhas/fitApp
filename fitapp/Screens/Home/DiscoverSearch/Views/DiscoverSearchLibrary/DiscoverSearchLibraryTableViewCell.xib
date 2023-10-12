@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="lIZ-R0-hyE" customClass="DiscoverSearchLibraryTableViewCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="407" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="lIZ-R0-hyE" id="Kfq-9V-sNP">
+                <rect key="frame" x="0.0" y="0.0" width="407" height="82"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kpL-Gc-Wqs">
+                        <rect key="frame" x="0.0" y="0.0" width="407" height="80"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="taq-Ap-sQW">
+                                <rect key="frame" x="84" y="12" width="271" height="56"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arnold Schwarzenegger. Training at home v.2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gEL-UH-5N0">
+                                        <rect key="frame" x="0.0" y="0.0" width="271" height="56"/>
+                                        <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CmU-Lt-omW">
+                                <rect key="frame" x="16" y="12" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="8G7-c9-EDI"/>
+                                    <constraint firstAttribute="width" constant="56" id="u3w-Sp-gat"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CaretRight" translatesAutoresizingMaskIntoConstraints="NO" id="dcZ-28-rWE">
+                                <rect key="frame" x="367" y="28" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="DFV-hg-baP"/>
+                                    <constraint firstAttribute="height" constant="24" id="Tz8-0x-Qcb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="taq-Ap-sQW" firstAttribute="top" secondItem="kpL-Gc-Wqs" secondAttribute="top" constant="12" id="Fo5-Kz-AvE"/>
+                            <constraint firstItem="taq-Ap-sQW" firstAttribute="leading" secondItem="CmU-Lt-omW" secondAttribute="trailing" constant="12" id="IHP-Fg-krg"/>
+                            <constraint firstAttribute="bottom" secondItem="taq-Ap-sQW" secondAttribute="bottom" constant="12" id="JCT-it-IGy"/>
+                            <constraint firstItem="CmU-Lt-omW" firstAttribute="centerY" secondItem="kpL-Gc-Wqs" secondAttribute="centerY" id="L51-Yh-CSJ"/>
+                            <constraint firstAttribute="height" constant="80" id="bg9-m8-Xxu"/>
+                            <constraint firstItem="dcZ-28-rWE" firstAttribute="centerY" secondItem="kpL-Gc-Wqs" secondAttribute="centerY" id="djc-cb-H0W"/>
+                            <constraint firstAttribute="trailing" secondItem="dcZ-28-rWE" secondAttribute="trailing" constant="16" id="fkp-xq-QcV"/>
+                            <constraint firstItem="CmU-Lt-omW" firstAttribute="leading" secondItem="kpL-Gc-Wqs" secondAttribute="leading" constant="16" id="jkI-vr-e6m"/>
+                            <constraint firstItem="dcZ-28-rWE" firstAttribute="leading" secondItem="taq-Ap-sQW" secondAttribute="trailing" constant="12" id="sT5-fg-Fni"/>
+                            <constraint firstItem="taq-Ap-sQW" firstAttribute="centerY" secondItem="kpL-Gc-Wqs" secondAttribute="centerY" id="sWV-YK-UdQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="Background"/>
+                <constraints>
+                    <constraint firstItem="kpL-Gc-Wqs" firstAttribute="leading" secondItem="Kfq-9V-sNP" secondAttribute="leading" id="H24-Db-1i0"/>
+                    <constraint firstAttribute="trailing" secondItem="kpL-Gc-Wqs" secondAttribute="trailing" id="XHg-be-aZt"/>
+                    <constraint firstItem="kpL-Gc-Wqs" firstAttribute="top" secondItem="Kfq-9V-sNP" secondAttribute="top" id="ltQ-j8-DZN"/>
+                    <constraint firstAttribute="bottom" secondItem="kpL-Gc-Wqs" secondAttribute="bottom" id="vlW-03-zJj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="RBn-v6-mpP"/>
+            <point key="canvasLocation" x="205.34351145038167" y="4.9295774647887329"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="CaretRight" width="24" height="24"/>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

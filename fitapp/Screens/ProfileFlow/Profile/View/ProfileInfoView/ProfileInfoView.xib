@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileInfoView" customModule="fitapp" customModuleProvider="target">
+            <connections>
+                <outlet property="avatarActionButton" destination="bzo-qw-WQr" id="k2R-tG-Hak"/>
+                <outlet property="containerView" destination="ILg-Ai-shG" id="eeS-6t-pbe"/>
+                <outlet property="experienceLabel" destination="Jjv-7U-lJv" id="b1W-FR-eHk"/>
+                <outlet property="heightConstraint" destination="rDq-rI-7RI" id="hIw-13-ict"/>
+                <outlet property="infoLabel" destination="eHA-KG-uSO" id="gnd-qk-Dan"/>
+                <outlet property="nameLabel" destination="cG0-qc-SNK" id="UXC-oJ-ott"/>
+                <outlet property="profileImageView" destination="Hub-51-Mnh" id="hgA-jh-K8O"/>
+                <outlet property="widthConstraint" destination="zJd-i9-8yo" id="Cd6-pU-oJE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="213"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kjv-jb-Dza">
+                    <rect key="frame" x="0.0" y="0.0" width="432" height="213"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ILg-Ai-shG">
+                            <rect key="frame" x="156" y="0.0" width="120" height="120"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_profile_image" translatesAutoresizingMaskIntoConstraints="NO" id="Hub-51-Mnh">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                </imageView>
+                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzo-qw-WQr">
+                                    <rect key="frame" x="92" y="92" width="28" height="28"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="28" id="N9k-qP-wEs"/>
+                                        <constraint firstAttribute="width" constant="28" id="R74-ys-iPi"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="ic_profile_add_picture"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Hub-51-Mnh" secondAttribute="bottom" id="D13-71-j7x"/>
+                                <constraint firstAttribute="bottom" secondItem="bzo-qw-WQr" secondAttribute="bottom" id="DSE-ml-Ct4"/>
+                                <constraint firstItem="Hub-51-Mnh" firstAttribute="leading" secondItem="ILg-Ai-shG" secondAttribute="leading" id="GkY-mI-4mi"/>
+                                <constraint firstAttribute="trailing" secondItem="Hub-51-Mnh" secondAttribute="trailing" id="c40-nA-oTf"/>
+                                <constraint firstAttribute="trailing" secondItem="bzo-qw-WQr" secondAttribute="trailing" id="h5L-YB-QOk"/>
+                                <constraint firstAttribute="height" constant="120" id="rDq-rI-7RI"/>
+                                <constraint firstItem="Hub-51-Mnh" firstAttribute="top" secondItem="ILg-Ai-shG" secondAttribute="top" id="s2S-sF-3Hg"/>
+                                <constraint firstAttribute="width" constant="120" id="zJd-i9-8yo"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gyy-Q2-nvg">
+                            <rect key="frame" x="195" y="136" width="42.333333333333343" height="74"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" ambiguous="YES" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG0-qc-SNK">
+                                    <rect key="frame" x="0.0" y="0.0" width="42.333333333333336" height="46.666666666666664"/>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                    <color key="textColor" name="Border Color"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" ambiguous="YES" text="Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHA-KG-uSO">
+                                    <rect key="frame" x="7" y="54.666666666666664" width="28" height="19.333333333333336"/>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                    <color key="textColor" red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="deviceRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="Trainer experience: 3 years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjv-7U-lJv">
+                                    <rect key="frame" x="-74" y="74" width="190" height="0.0"/>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                    <color key="textColor" name="Border Color"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="gyy-Q2-nvg" secondAttribute="bottom" constant="3" id="9ka-Ni-3At"/>
+                        <constraint firstItem="ILg-Ai-shG" firstAttribute="top" secondItem="Kjv-jb-Dza" secondAttribute="top" id="HzI-v5-w2C"/>
+                        <constraint firstItem="ILg-Ai-shG" firstAttribute="centerX" secondItem="Kjv-jb-Dza" secondAttribute="centerX" id="S7r-JW-ne5"/>
+                        <constraint firstItem="gyy-Q2-nvg" firstAttribute="top" secondItem="ILg-Ai-shG" secondAttribute="bottom" constant="16" id="dXu-sP-ixM"/>
+                        <constraint firstItem="gyy-Q2-nvg" firstAttribute="centerX" secondItem="Kjv-jb-Dza" secondAttribute="centerX" id="tC2-fo-bH2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Kjv-jb-Dza" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NTN-yG-WCc"/>
+                <constraint firstItem="Kjv-jb-Dza" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Zs8-EL-L9D"/>
+                <constraint firstAttribute="trailing" secondItem="Kjv-jb-Dza" secondAttribute="trailing" id="afJ-7U-2zE"/>
+                <constraint firstAttribute="bottom" secondItem="Kjv-jb-Dza" secondAttribute="bottom" id="y51-Ta-YhX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="123.66412213740458" y="162.32394366197184"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_profile_add_picture" width="28" height="28"/>
+        <image name="no_profile_image" width="70" height="70"/>
+        <namedColor name="Border Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

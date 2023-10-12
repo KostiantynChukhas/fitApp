@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Analytics View Controller-->
+        <scene sceneID="SXs-CN-fTK">
+            <objects>
+                <viewController storyboardIdentifier="AnalyticsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="y3K-b2-O9r" customClass="AnalyticsViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XBc-ti-Woo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y4m-WF-ADo" customClass="AnalyticsContainerView" customModule="fitapp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="179" width="393" height="639"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q1k-E3-K5M">
+                                <rect key="frame" x="0.0" y="59" width="393" height="120"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="H5f-3b-USt">
+                                        <rect key="frame" x="16" y="8" width="157.66666666666666" height="45.333333333333336"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Morning!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNH-3M-q6m">
+                                                <rect key="frame" x="0.0" y="0.0" width="157.66666666666666" height="20.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4J-Gf-gab">
+                                                <rect key="frame" x="0.0" y="24.666666666666671" width="157.66666666666666" height="20.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XoC-jt-1c7">
+                                        <rect key="frame" x="350" y="18.666666666666671" width="24" height="24"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="Bell"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEp-ww-x8O" customClass="ScrollableSegmentedControl" customModule="ScrollableSegmentedControl">
+                                        <rect key="frame" x="16" y="69.333333333333343" width="361" height="40"/>
+                                        <color key="backgroundColor" name="Background"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="bpx-db-pcq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="Background"/>
+                                <constraints>
+                                    <constraint firstItem="XoC-jt-1c7" firstAttribute="centerY" secondItem="H5f-3b-USt" secondAttribute="centerY" id="Dkf-td-dh7"/>
+                                    <constraint firstAttribute="trailing" secondItem="fEp-ww-x8O" secondAttribute="trailing" constant="16" id="I2T-7Q-1Ta"/>
+                                    <constraint firstAttribute="trailing" secondItem="XoC-jt-1c7" secondAttribute="trailing" constant="19" id="IeR-Ki-2gz"/>
+                                    <constraint firstAttribute="height" constant="120" id="Jqy-cB-4rj"/>
+                                    <constraint firstItem="H5f-3b-USt" firstAttribute="leading" secondItem="q1k-E3-K5M" secondAttribute="leading" constant="16" id="R2W-fK-ohz"/>
+                                    <constraint firstItem="fEp-ww-x8O" firstAttribute="leading" secondItem="q1k-E3-K5M" secondAttribute="leading" constant="16" id="XAt-Q1-P3d"/>
+                                    <constraint firstItem="fEp-ww-x8O" firstAttribute="top" secondItem="H5f-3b-USt" secondAttribute="bottom" constant="16" id="lhm-0D-tt7"/>
+                                    <constraint firstItem="H5f-3b-USt" firstAttribute="top" secondItem="q1k-E3-K5M" secondAttribute="top" constant="8" id="sa9-m8-43k"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ptp-Uy-zjI"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="y4m-WF-ADo" firstAttribute="top" secondItem="q1k-E3-K5M" secondAttribute="bottom" id="Bvq-UG-F50"/>
+                            <constraint firstItem="q1k-E3-K5M" firstAttribute="leading" secondItem="XBc-ti-Woo" secondAttribute="leading" id="D7b-BZ-sug"/>
+                            <constraint firstItem="Ptp-Uy-zjI" firstAttribute="bottom" secondItem="y4m-WF-ADo" secondAttribute="bottom" id="DYX-eq-o2g"/>
+                            <constraint firstItem="q1k-E3-K5M" firstAttribute="top" secondItem="Ptp-Uy-zjI" secondAttribute="top" id="a0L-0q-Miv"/>
+                            <constraint firstItem="y4m-WF-ADo" firstAttribute="leading" secondItem="Ptp-Uy-zjI" secondAttribute="leading" id="iWr-Gc-MpK"/>
+                            <constraint firstAttribute="trailing" secondItem="y4m-WF-ADo" secondAttribute="trailing" id="n1K-so-mVs"/>
+                            <constraint firstItem="Ptp-Uy-zjI" firstAttribute="trailing" secondItem="q1k-E3-K5M" secondAttribute="trailing" id="tAn-Kc-eWZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="notificationsButton" destination="XoC-jt-1c7" id="Jom-Lc-Qen"/>
+                        <outlet property="segmentView" destination="y4m-WF-ADo" id="LYr-EF-Rxu"/>
+                        <outlet property="segmentedControl" destination="fEp-ww-x8O" id="M7R-Tm-GNV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0o-Ju-ywy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-245" y="66"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bell" width="24" height="24"/>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login Preview View Controller-->
+        <scene sceneID="XaO-Pf-Zhc">
+            <objects>
+                <viewController storyboardIdentifier="LoginPreviewViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wt2-85-mml" customClass="LoginPreviewViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nuf-Z2-YLH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="f6F-EW-HyG">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="596"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mBf-aq-cyY">
+                                <rect key="frame" x="16" y="686" width="361" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsb-z7-cW1" customClass="RoundedButton" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="56"/>
+                                        <color key="backgroundColor" name="Button Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="Frk-RT-LKl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="18"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="btnLoginAction:" destination="Wt2-85-mml" eventType="touchUpInside" id="k0Q-Hs-5Rw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnL-cZ-IuO" customClass="RoundedButton" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="64" width="361" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="TQM-lU-AKY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="18"/>
+                                        <color key="tintColor" name="Mirage"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" name="Button Color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnRegisterAction:" destination="Wt2-85-mml" eventType="touchUpInside" id="4dv-7Z-d7Q"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="L10-ck-93o">
+                                <rect key="frame" x="135.66666666666666" y="522" width="121.99999999999997" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="9vH-lo-2hU"/>
+                                    <constraint firstAttribute="height" constant="140" id="P4h-Fs-sfb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eIK-k3-6yw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eIK-k3-6yw" firstAttribute="bottom" secondItem="mBf-aq-cyY" secondAttribute="bottom" constant="12" id="7Ma-jn-iOm"/>
+                            <constraint firstItem="mBf-aq-cyY" firstAttribute="leading" secondItem="eIK-k3-6yw" secondAttribute="leading" constant="16" id="Jc5-jo-0mf"/>
+                            <constraint firstItem="f6F-EW-HyG" firstAttribute="leading" secondItem="eIK-k3-6yw" secondAttribute="leading" id="L0T-ym-CJe"/>
+                            <constraint firstItem="eIK-k3-6yw" firstAttribute="trailing" secondItem="mBf-aq-cyY" secondAttribute="trailing" constant="16" id="OV7-VW-V9o"/>
+                            <constraint firstItem="mBf-aq-cyY" firstAttribute="top" secondItem="L10-ck-93o" secondAttribute="bottom" constant="24" id="QqU-Q8-2sY"/>
+                            <constraint firstItem="L10-ck-93o" firstAttribute="top" secondItem="f6F-EW-HyG" secondAttribute="bottom" constant="-74" id="bKm-Cg-g6q"/>
+                            <constraint firstItem="f6F-EW-HyG" firstAttribute="top" secondItem="nuf-Z2-YLH" secondAttribute="top" id="hEQ-cx-WmD"/>
+                            <constraint firstItem="L10-ck-93o" firstAttribute="centerX" secondItem="nuf-Z2-YLH" secondAttribute="centerX" id="hHE-52-TYE"/>
+                            <constraint firstItem="f6F-EW-HyG" firstAttribute="trailing" secondItem="eIK-k3-6yw" secondAttribute="trailing" id="yKY-fn-g0Y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnLogin" destination="Gsb-z7-cW1" id="bjF-aa-q40"/>
+                        <outlet property="btnRegister" destination="CnL-cZ-IuO" id="u4Z-Vq-8XO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lLr-uE-m2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="CnL-cZ-IuO">
+            <size key="intrinsicContentSize" width="67" height="33"/>
+        </designable>
+        <designable name="Gsb-z7-cW1">
+            <size key="intrinsicContentSize" width="45" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="image" width="375" height="543"/>
+        <image name="logo" width="122" height="140"/>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Mirage">
+            <color red="0.098039215686274508" green="0.12549019607843137" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

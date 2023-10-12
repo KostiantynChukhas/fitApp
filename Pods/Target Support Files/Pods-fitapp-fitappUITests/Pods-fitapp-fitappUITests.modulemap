@@ -1,0 +1,6 @@
+framework module Pods_fitapp_fitappUITests {
+  umbrella header "Pods-fitapp-fitappUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

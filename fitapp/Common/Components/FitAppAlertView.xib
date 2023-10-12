@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FitAppAlertView" customModule="fitapp" customModuleProvider="target">
+            <connections>
+                <outlet property="bgView" destination="9l6-2R-gMQ" id="Xd7-al-1CO"/>
+                <outlet property="continueButton" destination="uIH-or-lch" id="wf9-uv-cMh"/>
+                <outlet property="lbMsg" destination="64M-hQ-N3d" id="Qc3-Hb-MEj"/>
+                <outlet property="lbTitle" destination="fYN-wR-g3C" id="CZV-mL-mMo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="b6j-VP-xug">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.60000002384185791" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="icx-58-QUq">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9l6-2R-gMQ">
+                    <rect key="frame" x="16" y="259" width="361" height="201.33333333333337"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIH-or-lch" customClass="RoundedButton" customModule="fitapp" customModuleProvider="target">
+                            <rect key="frame" x="40" y="121.33333333333331" width="281" height="56"/>
+                            <color key="backgroundColor" name="Button Color"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="KqT-xr-g1b"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Continue"/>
+                            <connections>
+                                <action selector="continueButtonAction:" destination="-1" eventType="touchUpInside" id="juI-E1-UiR"/>
+                            </connections>
+                        </button>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="uVV-93-drE">
+                            <rect key="frame" x="16" y="16" width="329" height="89.333333333333329"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Done!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYN-wR-g3C">
+                                    <rect key="frame" x="0.0" y="0.0" width="329" height="38.666666666666664"/>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="30"/>
+                                    <color key="textColor" name="Text Color"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64M-hQ-N3d">
+                                    <rect key="frame" x="0.0" y="50.666666666666686" width="329" height="38.666666666666657"/>
+                                    <string key="text">A new password has been sent 
+to your email.</string>
+                                    <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="16"/>
+                                    <color key="textColor" name="Text Color"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uVV-93-drE" secondAttribute="trailing" constant="16" id="E1Y-dG-ntU"/>
+                        <constraint firstItem="uVV-93-drE" firstAttribute="leading" secondItem="9l6-2R-gMQ" secondAttribute="leading" constant="16" id="JMD-Ni-crn"/>
+                        <constraint firstAttribute="trailing" secondItem="uIH-or-lch" secondAttribute="trailing" constant="40" id="Z1a-zR-iqK"/>
+                        <constraint firstAttribute="bottom" secondItem="uIH-or-lch" secondAttribute="bottom" constant="24" id="eai-jL-rot"/>
+                        <constraint firstItem="uIH-or-lch" firstAttribute="leading" secondItem="9l6-2R-gMQ" secondAttribute="leading" constant="40" id="iP2-Cf-eT3"/>
+                        <constraint firstItem="uVV-93-drE" firstAttribute="top" secondItem="9l6-2R-gMQ" secondAttribute="top" constant="16" id="jFL-Rd-bur"/>
+                        <constraint firstItem="uIH-or-lch" firstAttribute="top" secondItem="uVV-93-drE" secondAttribute="bottom" constant="16" id="mdl-1j-ftQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="HeE-Zy-PGt"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="icx-58-QUq" firstAttribute="leading" secondItem="b6j-VP-xug" secondAttribute="leading" id="JeJ-fS-SOq"/>
+                <constraint firstAttribute="trailing" secondItem="9l6-2R-gMQ" secondAttribute="trailing" constant="16" id="Ko6-oy-qRS"/>
+                <constraint firstItem="9l6-2R-gMQ" firstAttribute="centerX" secondItem="b6j-VP-xug" secondAttribute="centerX" id="YX2-1w-BtU"/>
+                <constraint firstAttribute="bottom" secondItem="icx-58-QUq" secondAttribute="bottom" id="a10-yO-y3t"/>
+                <constraint firstItem="9l6-2R-gMQ" firstAttribute="top" secondItem="HeE-Zy-PGt" secondAttribute="top" constant="200" id="ilz-vM-zdA"/>
+                <constraint firstItem="9l6-2R-gMQ" firstAttribute="leading" secondItem="b6j-VP-xug" secondAttribute="leading" constant="16" id="rvL-sx-JHv"/>
+                <constraint firstAttribute="trailing" secondItem="icx-58-QUq" secondAttribute="trailing" id="std-Au-ZqW"/>
+                <constraint firstItem="icx-58-QUq" firstAttribute="top" secondItem="b6j-VP-xug" secondAttribute="top" id="wBU-Q3-ag5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="-295.41984732824426" y="-35.211267605633807"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="uIH-or-lch">
+            <size key="intrinsicContentSize" width="74" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

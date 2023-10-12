@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Delete Account Popup-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DeleteAccountPopup" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DeleteAccountPopup" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3P-h8-JMF">
+                                <rect key="frame" x="20" y="312.33333333333331" width="353" height="252.66666666666669"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Loz-3i-DDP">
+                                        <rect key="frame" x="16" y="24" width="321" height="204.66666666666666"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s wrong?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIJ-rw-ihY">
+                                                <rect key="frame" x="0.0" y="0.0" width="321" height="24"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                                <color key="textColor" red="0.098039215686274508" green="0.12941176470588234" blue="0.14901960784313725" alpha="1" colorSpace="deviceRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzG-NC-5SG">
+                                                <rect key="frame" x="0.0" y="48.000000000000007" width="321" height="76.666666666666686"/>
+                                                <string key="text">A you sure want yo delete your account?
+
+It is not possible to reverse this action. Account and all data will be deleted!</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="textColor" red="0.098039215686274508" green="0.12941176470588234" blue="0.14901960784313725" alpha="1" colorSpace="deviceRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="U4S-Bd-4GL">
+                                                <rect key="frame" x="0.0" y="148.66666666666669" width="321" height="56"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aH-aR-4KT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="153" height="56"/>
+                                                        <color key="backgroundColor" red="0.73333333329999995" green="0.94901960780000005" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Return">
+                                                            <color key="titleColor" red="0.098039215686274508" green="0.12941176470588234" blue="0.14901960784313725" alpha="1" colorSpace="deviceRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deK-uO-EVL">
+                                                        <rect key="frame" x="168" y="0.0" width="153" height="56"/>
+                                                        <color key="backgroundColor" name="Cinnabar"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Delete">
+                                                            <color key="titleColor" red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="deviceRGB"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="OIO-gH-4nS"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Loz-3i-DDP" firstAttribute="top" secondItem="Q3P-h8-JMF" secondAttribute="top" constant="24" id="3dv-bg-9dh"/>
+                                    <constraint firstItem="Loz-3i-DDP" firstAttribute="leading" secondItem="Q3P-h8-JMF" secondAttribute="leading" constant="16" id="4BU-64-uxy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Loz-3i-DDP" secondAttribute="trailing" constant="16" id="t6A-93-KnJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Loz-3i-DDP" secondAttribute="bottom" constant="24" id="uXl-fM-Cns"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Q3P-h8-JMF" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="9Z1-uB-hJb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Q3P-h8-JMF" secondAttribute="trailing" constant="20" id="Rl1-pV-QsZ"/>
+                            <constraint firstItem="Q3P-h8-JMF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="VZq-ZS-R5L"/>
+                            <constraint firstItem="Q3P-h8-JMF" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="vQV-7V-cw6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cancelButton" destination="8aH-aR-4KT" id="ink-hr-gas"/>
+                        <outlet property="containerView" destination="Q3P-h8-JMF" id="snu-hd-Rff"/>
+                        <outlet property="deleteButton" destination="deK-uO-EVL" id="IxQ-h6-0X9"/>
+                        <outlet property="descriptionLabel" destination="tzG-NC-5SG" id="ZSr-Gy-JNk"/>
+                        <outlet property="titleLabel" destination="jIJ-rw-ihY" id="rC1-R6-Uj8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Cinnabar">
+            <color red="0.92900002002716064" green="0.27799999713897705" blue="0.27799999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

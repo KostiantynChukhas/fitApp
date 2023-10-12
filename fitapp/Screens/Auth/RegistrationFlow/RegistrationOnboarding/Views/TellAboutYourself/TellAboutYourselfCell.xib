@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TellAboutYourselfCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="364" height="562"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="364" height="562"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pcl-lR-K9b">
+                        <rect key="frame" x="0.0" y="0.0" width="364" height="562"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell us about yourself!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiD-jt-eWr">
+                                <rect key="frame" x="65.666666666666671" y="30" width="232.66666666666663" height="29"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                <color key="textColor" name="Text Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fwa-75-Q3M">
+                                <rect key="frame" x="139.66666666666666" y="131" width="85" height="108"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="oIJ-bS-fid">
+                                        <rect key="frame" x="8" y="8" width="69" height="92"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnI-fH-bXm">
+                                                <rect key="frame" x="0.0" y="0.0" width="56" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="hVb-Jm-TL2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-10" maxY="0.0"/>
+                                                <state key="normal" title="Male" image="unselected_radio_button">
+                                                    <color key="titleColor" name="Button Color"/>
+                                                </state>
+                                                <state key="selected" image="selected_radio_button"/>
+                                                <connections>
+                                                    <action selector="maleButtonActoin:" destination="gTV-IL-0wX" eventType="touchUpInside" id="bUP-hB-fcU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6Q-dD-ffy">
+                                                <rect key="frame" x="0.0" y="52" width="69" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="mFR-s9-S6l"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-10" maxY="0.0"/>
+                                                <state key="normal" title="Female" image="unselected_radio_button">
+                                                    <color key="titleColor" name="Button Color"/>
+                                                </state>
+                                                <state key="selected" image="selected_radio_button"/>
+                                                <connections>
+                                                    <action selector="femaleButtonAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="XY3-6s-MKa"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="oIJ-bS-fid" firstAttribute="top" secondItem="Fwa-75-Q3M" secondAttribute="top" constant="8" id="LuE-o0-sQT"/>
+                                    <constraint firstAttribute="bottom" secondItem="oIJ-bS-fid" secondAttribute="bottom" constant="8" id="McX-Lo-uzm"/>
+                                    <constraint firstAttribute="trailing" secondItem="oIJ-bS-fid" secondAttribute="trailing" constant="8" id="bDQ-jf-0on"/>
+                                    <constraint firstItem="oIJ-bS-fid" firstAttribute="leading" secondItem="Fwa-75-Q3M" secondAttribute="leading" constant="8" id="d4b-c2-ak8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fwa-75-Q3M" firstAttribute="centerX" secondItem="Pcl-lR-K9b" secondAttribute="centerX" id="Cei-t4-pHm"/>
+                            <constraint firstItem="Fwa-75-Q3M" firstAttribute="top" secondItem="MiD-jt-eWr" secondAttribute="bottom" constant="72" id="Yfw-2U-y7K"/>
+                            <constraint firstItem="MiD-jt-eWr" firstAttribute="top" secondItem="Pcl-lR-K9b" secondAttribute="top" constant="30" id="fHi-So-QBL"/>
+                            <constraint firstItem="MiD-jt-eWr" firstAttribute="centerX" secondItem="Pcl-lR-K9b" secondAttribute="centerX" id="kfp-2k-QwH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Pcl-lR-K9b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="A8L-P5-FOF"/>
+                <constraint firstAttribute="bottom" secondItem="Pcl-lR-K9b" secondAttribute="bottom" id="DDM-FX-rrI"/>
+                <constraint firstAttribute="trailing" secondItem="Pcl-lR-K9b" secondAttribute="trailing" id="n7M-6e-3O3"/>
+                <constraint firstItem="Pcl-lR-K9b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zfB-vl-lCC"/>
+            </constraints>
+            <size key="customSize" width="364" height="562"/>
+            <connections>
+                <outlet property="femaleButton" destination="V6Q-dD-ffy" id="sge-L7-aEW"/>
+                <outlet property="maleButton" destination="QnI-fH-bXm" id="FRS-Ld-Txp"/>
+                <outlet property="viewCheckList" destination="Fwa-75-Q3M" id="kR1-7Y-1Ot"/>
+            </connections>
+            <point key="canvasLocation" x="378.62595419847327" y="68.309859154929583"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="selected_radio_button" width="24" height="24"/>
+        <image name="unselected_radio_button" width="24" height="24"/>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

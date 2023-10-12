@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="puk-tl-Aau" customClass="WatsYourCurrentWeightCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="482"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="482"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LNJ-Sg-O4D">
+                        <rect key="frame" x="0.0" y="0.0" width="485" height="482"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What’s your date of birth?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEB-Zh-EMY">
+                                <rect key="frame" x="40" y="30" width="385" height="29"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                <color key="textColor" name="Text Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Acw-Yz-8zm">
+                                <rect key="frame" x="120.66666666666669" y="83" width="244" height="32"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tt-ja-48N">
+                                        <rect key="frame" x="0.0" y="0.0" width="118" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="118" id="WNl-6h-Igz"/>
+                                            <constraint firstAttribute="height" constant="32" id="ok3-Eg-ebz"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="Button Color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="leftButtonAction:" destination="puk-tl-Aau" eventType="touchUpInside" id="NeM-PP-RbZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ot-yb-XeK">
+                                        <rect key="frame" x="126" y="0.0" width="118" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="Phy-y5-Zsg"/>
+                                            <constraint firstAttribute="width" constant="118" id="veB-ky-6rJ"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="Button Color"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="rightButtonAction:" destination="puk-tl-Aau" eventType="touchUpInside" id="oIy-uP-cjp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Rob-AF-XI8">
+                                <rect key="frame" x="225.66666666666666" y="147" width="33.666666666666657" height="40"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="079-mx-BbS">
+                                        <rect key="frame" x="0.0" y="0.0" width="14" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" name="Text Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="10f-8U-1Aj"/>
+                                            <constraint firstAttribute="height" constant="40" id="tMY-N0-5s6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6u-ex-mN0">
+                                        <rect key="frame" x="19" y="23" width="14.666666666666664" height="17"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        <color key="textColor" red="0.38823529411764707" green="0.396078431372549" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="Rob-AF-XI8" firstAttribute="centerX" secondItem="LNJ-Sg-O4D" secondAttribute="centerX" id="0K2-fY-dis"/>
+                            <constraint firstItem="Acw-Yz-8zm" firstAttribute="centerX" secondItem="LNJ-Sg-O4D" secondAttribute="centerX" id="EGe-QN-6wo"/>
+                            <constraint firstItem="Acw-Yz-8zm" firstAttribute="top" secondItem="oEB-Zh-EMY" secondAttribute="bottom" constant="24" id="Nlp-FV-Exj"/>
+                            <constraint firstAttribute="trailing" secondItem="oEB-Zh-EMY" secondAttribute="trailing" constant="60" id="UYg-30-1k5"/>
+                            <constraint firstItem="Rob-AF-XI8" firstAttribute="top" secondItem="3Tt-ja-48N" secondAttribute="bottom" constant="32" id="gwq-rY-aje"/>
+                            <constraint firstItem="oEB-Zh-EMY" firstAttribute="leading" secondItem="LNJ-Sg-O4D" secondAttribute="leading" constant="40" id="mQ0-Ce-afS"/>
+                            <constraint firstItem="oEB-Zh-EMY" firstAttribute="top" secondItem="LNJ-Sg-O4D" secondAttribute="top" constant="30" id="nw2-4u-5oX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="vif-B7-y3a"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LNJ-Sg-O4D" secondAttribute="bottom" id="5MR-Uv-Svx"/>
+                <constraint firstItem="LNJ-Sg-O4D" firstAttribute="leading" secondItem="puk-tl-Aau" secondAttribute="leading" id="E4Q-Rf-QkE"/>
+                <constraint firstAttribute="trailing" secondItem="LNJ-Sg-O4D" secondAttribute="trailing" id="Rur-bb-zz6"/>
+                <constraint firstItem="LNJ-Sg-O4D" firstAttribute="top" secondItem="puk-tl-Aau" secondAttribute="top" id="qa2-Jr-aGs"/>
+            </constraints>
+            <size key="customSize" width="485" height="482"/>
+            <connections>
+                <outlet property="leftButton" destination="3Tt-ja-48N" id="5P4-pR-HzY"/>
+                <outlet property="metricLabel" destination="u6u-ex-mN0" id="yCR-er-B1B"/>
+                <outlet property="rightButton" destination="7ot-yb-XeK" id="4Us-sw-Kxh"/>
+                <outlet property="textField" destination="079-mx-BbS" id="dO1-g8-HFe"/>
+                <outlet property="titleLabel" destination="oEB-Zh-EMY" id="fHb-Bq-EZ2"/>
+            </connections>
+            <point key="canvasLocation" x="261.83206106870227" y="42.95774647887324"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

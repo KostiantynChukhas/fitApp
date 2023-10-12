@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Registration Onboarding View Controller-->
+        <scene sceneID="Zi8-nu-4By">
+            <objects>
+                <viewController storyboardIdentifier="RegistrationOnboardingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="36U-ja-ksi" customClass="RegistrationOnboardingViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NgE-zX-scH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giY-W1-xlc" customClass="RoundedButton" customModule="fitapp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="599" width="343" height="56"/>
+                                <color key="backgroundColor" name="Button Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="UFR-dm-CMY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OfA-sQ-ukK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ra6-lm-qv1">
+                                        <rect key="frame" x="90" y="25" width="195" height="6"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="195" id="KCe-Mb-jCa"/>
+                                            <constraint firstAttribute="height" constant="6" id="ySK-L6-L2p"/>
+                                        </constraints>
+                                        <color key="progressTintColor" name="Starship"/>
+                                        <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </progressView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVZ-VW-fXA">
+                                        <rect key="frame" x="16" y="14" width="30" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="28" id="3iG-54-yCv"/>
+                                            <constraint firstAttribute="width" constant="30" id="yy1-fg-okW"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="CareLeft"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="Background"/>
+                                <constraints>
+                                    <constraint firstItem="NVZ-VW-fXA" firstAttribute="leading" secondItem="OfA-sQ-ukK" secondAttribute="leading" constant="16" id="aUV-pu-eZf"/>
+                                    <constraint firstItem="NVZ-VW-fXA" firstAttribute="centerY" secondItem="OfA-sQ-ukK" secondAttribute="centerY" id="i6X-1m-9wY"/>
+                                    <constraint firstAttribute="height" constant="56" id="mr1-wu-Ok3"/>
+                                    <constraint firstItem="ra6-lm-qv1" firstAttribute="centerX" secondItem="OfA-sQ-ukK" secondAttribute="centerX" id="s4u-GV-Vzx"/>
+                                    <constraint firstItem="ra6-lm-qv1" firstAttribute="centerX" secondItem="OfA-sQ-ukK" secondAttribute="centerX" id="sjC-sf-O7H"/>
+                                    <constraint firstItem="ra6-lm-qv1" firstAttribute="centerY" secondItem="OfA-sQ-ukK" secondAttribute="centerY" id="yoG-8k-bFo"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ryY-Nn-AUk">
+                                <rect key="frame" x="0.0" y="56" width="375" height="543"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oKg-Aa-Cke">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GZn-iZ-myj"/>
+                        <color key="backgroundColor" red="0.96862745289999996" green="0.96470588450000005" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="giY-W1-xlc" firstAttribute="leading" secondItem="GZn-iZ-myj" secondAttribute="leading" constant="16" id="5QH-vf-b4D"/>
+                            <constraint firstItem="GZn-iZ-myj" firstAttribute="bottom" secondItem="giY-W1-xlc" secondAttribute="bottom" constant="12" id="5hd-0B-fZ9"/>
+                            <constraint firstItem="GZn-iZ-myj" firstAttribute="trailing" secondItem="giY-W1-xlc" secondAttribute="trailing" constant="16" id="8W3-pt-9IP"/>
+                            <constraint firstItem="OfA-sQ-ukK" firstAttribute="leading" secondItem="GZn-iZ-myj" secondAttribute="leading" id="CqQ-iU-AK3"/>
+                            <constraint firstItem="ryY-Nn-AUk" firstAttribute="trailing" secondItem="GZn-iZ-myj" secondAttribute="trailing" id="Dmo-Cg-wcx"/>
+                            <constraint firstItem="GZn-iZ-myj" firstAttribute="trailing" secondItem="OfA-sQ-ukK" secondAttribute="trailing" id="OeB-gD-ax4"/>
+                            <constraint firstItem="giY-W1-xlc" firstAttribute="top" secondItem="ryY-Nn-AUk" secondAttribute="bottom" id="cXb-tu-pLV"/>
+                            <constraint firstItem="ryY-Nn-AUk" firstAttribute="leading" secondItem="GZn-iZ-myj" secondAttribute="leading" id="dMs-hQ-2rV"/>
+                            <constraint firstItem="ryY-Nn-AUk" firstAttribute="top" secondItem="OfA-sQ-ukK" secondAttribute="bottom" id="n82-nU-x0l"/>
+                            <constraint firstItem="OfA-sQ-ukK" firstAttribute="top" secondItem="GZn-iZ-myj" secondAttribute="top" id="sJa-Z5-vlk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnBack" destination="NVZ-VW-fXA" id="wpe-8P-HYx"/>
+                        <outlet property="btnNext" destination="giY-W1-xlc" id="cmd-T5-oZ9"/>
+                        <outlet property="collectionView" destination="ryY-Nn-AUk" id="gV4-Jc-eWA"/>
+                        <outlet property="progress" destination="ra6-lm-qv1" id="2Sm-Mw-Kmb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwe-a9-CEI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-558" y="-2"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="giY-W1-xlc">
+            <size key="intrinsicContentSize" width="38" height="33"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="CareLeft" width="9" height="17"/>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Button Color">
+            <color red="0.090196078431372548" green="0.12156862745098039" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Starship">
+            <color red="0.73299998044967651" green="0.94900000095367432" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

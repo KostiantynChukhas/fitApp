@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="283" id="KGk-i7-Jjw" customClass="RatingTableCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="283"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="283"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ab-Ij-ZcR">
+                        <rect key="frame" x="16" y="12" width="288" height="208"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0uJ-ul-p9x">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="208"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ifb-KW-9c4">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="24"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Im4-5e-Emc" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="136" id="iog-Xt-Pwk"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEditable" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="stars">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" horizontalCompressionResistancePriority="749" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Q1f-28-4e9">
+                                                <rect key="frame" x="152" y="10" width="95.333333333333314" height="4"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="Starship"/>
+                                                <color key="progressTintColor" name="Starship"/>
+                                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pv4-vr-Xdt">
+                                                <rect key="frame" x="263.33333333333331" y="3.6666666666666661" width="24.666666666666686" height="17"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="WSE-nM-ceV"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="X65-GH-tDr">
+                                        <rect key="frame" x="0.0" y="32" width="288" height="24"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omS-HT-580" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="136" id="5VP-Ae-03B"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEditable" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="stars">
+                                                        <integer key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" horizontalCompressionResistancePriority="749" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FrS-Uo-VOA">
+                                                <rect key="frame" x="152" y="10" width="95.333333333333314" height="4"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="Starship"/>
+                                                <color key="progressTintColor" name="Starship"/>
+                                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSh-NV-9tj">
+                                                <rect key="frame" x="263.33333333333331" y="3.6666666666666643" width="24.666666666666686" height="17"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="sPd-Zz-wmK"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hAL-k8-xf8">
+                                        <rect key="frame" x="0.0" y="64" width="288" height="24"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0c-iA-rVY" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="136" id="it8-YP-Qdg"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEditable" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="stars">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" horizontalCompressionResistancePriority="749" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WCt-YR-vfc">
+                                                <rect key="frame" x="152" y="10" width="95.333333333333314" height="4"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="Starship"/>
+                                                <color key="progressTintColor" name="Starship"/>
+                                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EzQ-ML-rYz">
+                                                <rect key="frame" x="263.33333333333331" y="3.6666666666666714" width="24.666666666666686" height="17"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="YA5-en-f4B"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zky-81-Zfa">
+                                        <rect key="frame" x="0.0" y="96" width="288" height="24"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZLf-PV-bvf" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="136" id="MFJ-w8-Drb"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEditable" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="stars">
+                                                        <integer key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" horizontalCompressionResistancePriority="749" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Yxc-8Y-g4a">
+                                                <rect key="frame" x="152" y="10" width="95.333333333333314" height="4"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="Starship"/>
+                                                <color key="progressTintColor" name="Starship"/>
+                                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XY4-0K-W59">
+                                                <rect key="frame" x="263.33333333333331" y="3.6666666666666714" width="24.666666666666686" height="17"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="edG-8e-8NC"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="MjB-Ej-gIi">
+                                        <rect key="frame" x="0.0" y="128" width="288" height="24"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pIg-NL-tuV" customClass="RateStarsView" customModule="fitapp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="136" height="24"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="136" id="Fjr-gM-9y3"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="spacing">
+                                                        <real key="value" value="4"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isEditable" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="stars">
+                                                        <integer key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" horizontalCompressionResistancePriority="749" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="WO8-LO-Rk5">
+                                                <rect key="frame" x="152" y="10" width="95.333333333333314" height="4"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" name="Starship"/>
+                                                <color key="progressTintColor" name="Starship"/>
+                                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWF-rB-vY9">
+                                                <rect key="frame" x="263.33333333333331" y="3.6666666666666572" width="24.666666666666686" height="17"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="atL-4H-U0f"/>
+                                        </constraints>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Byf-aM-gAb">
+                                        <rect key="frame" x="0.0" y="160" width="288" height="8"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="8" id="fiv-Wh-zCk"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCh-sP-cXG">
+                                        <rect key="frame" x="0.0" y="176" width="288" height="32"/>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.71764705880000002" blue="0.43137254899999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="9W9-UG-LVL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Leave feedback"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0uJ-ul-p9x" secondAttribute="trailing" id="B6e-5M-o9g"/>
+                            <constraint firstItem="0uJ-ul-p9x" firstAttribute="top" secondItem="9ab-Ij-ZcR" secondAttribute="top" id="VB2-Vg-DM6"/>
+                            <constraint firstAttribute="bottom" secondItem="0uJ-ul-p9x" secondAttribute="bottom" id="gNo-Ct-KdU"/>
+                            <constraint firstItem="0uJ-ul-p9x" firstAttribute="leading" secondItem="9ab-Ij-ZcR" secondAttribute="leading" id="mpf-ek-PEz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="9ab-Ij-ZcR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="0dx-49-nbI"/>
+                    <constraint firstAttribute="bottom" secondItem="9ab-Ij-ZcR" secondAttribute="bottom" constant="12" id="Ful-yi-L5o"/>
+                    <constraint firstAttribute="trailing" secondItem="9ab-Ij-ZcR" secondAttribute="trailing" constant="16" id="JWi-K8-bWu"/>
+                    <constraint firstItem="9ab-Ij-ZcR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="WI1-FW-qk1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="leaveFeedbackButton" destination="JCh-sP-cXG" id="KON-6R-dKJ"/>
+                <outletCollection property="rateViews" destination="pIg-NL-tuV" collectionClass="NSMutableArray" id="pRE-1R-cJI"/>
+                <outletCollection property="rateViews" destination="ZLf-PV-bvf" collectionClass="NSMutableArray" id="bT6-ph-rcu"/>
+                <outletCollection property="rateViews" destination="B0c-iA-rVY" collectionClass="NSMutableArray" id="gjL-nh-ja9"/>
+                <outletCollection property="rateViews" destination="omS-HT-580" collectionClass="NSMutableArray" id="qtD-cy-xqH"/>
+                <outletCollection property="rateViews" destination="Im4-5e-Emc" collectionClass="NSMutableArray" id="mhl-zr-LSr"/>
+                <outletCollection property="rateLabels" destination="vWF-rB-vY9" collectionClass="NSMutableArray" id="Plx-rg-wy8"/>
+                <outletCollection property="rateLabels" destination="XY4-0K-W59" collectionClass="NSMutableArray" id="vzj-hV-tCg"/>
+                <outletCollection property="rateLabels" destination="EzQ-ML-rYz" collectionClass="NSMutableArray" id="5ud-gi-mwh"/>
+                <outletCollection property="rateLabels" destination="cSh-NV-9tj" collectionClass="NSMutableArray" id="diV-m1-0lz"/>
+                <outletCollection property="rateLabels" destination="Pv4-vr-Xdt" collectionClass="NSMutableArray" id="tCB-uv-4hz"/>
+                <outletCollection property="rateProgressView" destination="WO8-LO-Rk5" collectionClass="NSMutableArray" id="3ug-rk-ZTN"/>
+                <outletCollection property="rateProgressView" destination="Yxc-8Y-g4a" collectionClass="NSMutableArray" id="8QC-KO-LAB"/>
+                <outletCollection property="rateProgressView" destination="WCt-YR-vfc" collectionClass="NSMutableArray" id="hAX-oL-yvf"/>
+                <outletCollection property="rateProgressView" destination="FrS-Uo-VOA" collectionClass="NSMutableArray" id="Ao5-6L-GAK"/>
+                <outletCollection property="rateProgressView" destination="Q1f-28-4e9" collectionClass="NSMutableArray" id="JKt-qL-dou"/>
+            </connections>
+            <point key="canvasLocation" x="11" y="29"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Starship">
+            <color red="0.73299998044967651" green="0.94900000095367432" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

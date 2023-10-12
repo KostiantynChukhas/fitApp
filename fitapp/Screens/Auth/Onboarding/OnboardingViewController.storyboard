@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Semibold.ttf">
+            <string>Lato-Semibold</string>
+        </array>
+        <array key="Satoshi-Medium.otf">
+            <string>Satoshi-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Onboarding View Controller-->
+        <scene sceneID="5Vh-hb-FR6">
+            <objects>
+                <viewController storyboardIdentifier="OnboardingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="X18-mW-I7W" customClass="OnboardingViewController" customModule="fitapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uec-fm-GcE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="M00-mx-2Qg">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" name="Background"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Val-ld-oOn">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="tc1-um-LMw">
+                                <rect key="frame" x="24" y="710" width="345" height="103"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQ8-Lz-H3b" customClass="RoundedButton" customModule="fitapp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="48"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.92549019610000005" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="eYU-iB-1oA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Satoshi-Medium" family="Satoshi" pointSize="17"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="next"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ET-ZW-2C6">
+                                        <rect key="frame" x="0.0" y="55" width="345" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="61d-fn-gDe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Semibold" family="Lato" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="skip">
+                                            <color key="titleColor" name="Text Color"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ia-pF-Vlj">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="511.33333333333331"/>
+                                <subviews>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="FzE-0B-sve">
+                                        <rect key="frame" x="138.66666666666666" y="477.33333333333331" width="115.66666666666666" height="26"/>
+                                        <color key="pageIndicatorTintColor" name="PageControlInactiveColor"/>
+                                        <color key="currentPageIndicatorTintColor" name="PageControlActiveColor"/>
+                                    </pageControl>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="FzE-0B-sve" secondAttribute="bottom" constant="8" id="UPp-Ta-gda"/>
+                                    <constraint firstItem="FzE-0B-sve" firstAttribute="centerX" secondItem="9ia-pF-Vlj" secondAttribute="centerX" id="xFD-7X-Lky"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7ny-kK-u3v"/>
+                        <color key="backgroundColor" name="Background"/>
+                        <constraints>
+                            <constraint firstItem="tc1-um-LMw" firstAttribute="leading" secondItem="7ny-kK-u3v" secondAttribute="leading" constant="24" id="577-Kk-Kfh"/>
+                            <constraint firstItem="9ia-pF-Vlj" firstAttribute="height" secondItem="Uec-fm-GcE" secondAttribute="height" multiplier="0.6" id="FHG-J3-Onf"/>
+                            <constraint firstItem="9ia-pF-Vlj" firstAttribute="top" secondItem="Uec-fm-GcE" secondAttribute="top" id="MpM-14-F5Z"/>
+                            <constraint firstItem="7ny-kK-u3v" firstAttribute="trailing" secondItem="9ia-pF-Vlj" secondAttribute="trailing" id="Nmz-73-NS5"/>
+                            <constraint firstItem="7ny-kK-u3v" firstAttribute="trailing" secondItem="tc1-um-LMw" secondAttribute="trailing" constant="24" id="Sbm-Y4-Kkv"/>
+                            <constraint firstItem="M00-mx-2Qg" firstAttribute="leading" secondItem="7ny-kK-u3v" secondAttribute="leading" id="TMZ-Fk-ctI"/>
+                            <constraint firstItem="9ia-pF-Vlj" firstAttribute="leading" secondItem="7ny-kK-u3v" secondAttribute="leading" id="UV4-f1-M5b"/>
+                            <constraint firstItem="7ny-kK-u3v" firstAttribute="bottom" secondItem="tc1-um-LMw" secondAttribute="bottom" constant="5" id="XUn-Ml-7gA"/>
+                            <constraint firstItem="M00-mx-2Qg" firstAttribute="trailing" secondItem="7ny-kK-u3v" secondAttribute="trailing" id="YQC-Y3-xm8"/>
+                            <constraint firstAttribute="bottom" secondItem="M00-mx-2Qg" secondAttribute="bottom" id="pE0-FQ-WBb"/>
+                            <constraint firstItem="M00-mx-2Qg" firstAttribute="top" secondItem="Uec-fm-GcE" secondAttribute="top" id="qxn-iI-knV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="mIG-lC-2Ca"/>
+                    <connections>
+                        <outlet property="btnNext" destination="aQ8-Lz-H3b" id="oLi-Db-O53"/>
+                        <outlet property="btnSkipAction" destination="7ET-ZW-2C6" id="1tD-FY-D1x"/>
+                        <outlet property="collectionView" destination="M00-mx-2Qg" id="6VA-s0-FXq"/>
+                        <outlet property="pageControl" destination="FzE-0B-sve" id="aGc-Iz-Am4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jrv-il-rZb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="135"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="aQ8-Lz-H3b">
+            <size key="intrinsicContentSize" width="33" height="32"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="Background">
+            <color red="0.96862745098039216" green="0.96470588235294119" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PageControlActiveColor">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="PageControlInactiveColor">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

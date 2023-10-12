@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DiskoverWorkoutsCollectionViewCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="184"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="310" height="184"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mX-00-ePH">
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="184"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Card training" translatesAutoresizingMaskIntoConstraints="NO" id="UvI-VT-7FJ">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="184"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardio Training Sets" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6au-Xn-6HN">
+                                <rect key="frame" x="16" y="15.999999999999998" width="229" height="28.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229" id="bSi-KC-9LA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="g2U-LF-Ddi">
+                                <rect key="frame" x="15.999999999999993" y="48.333333333333336" width="127.33333333333331" height="20.000000000000007"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Barbell green" translatesAutoresizingMaskIntoConstraints="NO" id="YK8-N1-hg8">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="VBB-pM-c6H"/>
+                                            <constraint firstAttribute="width" constant="20" id="jdp-eE-L8X"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32 training days" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mR0-yn-q2f">
+                                        <rect key="frame" x="27.999999999999993" y="1.6666666666666643" width="99.333333333333314" height="17"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                        <color key="textColor" name="Starship"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rk8-Mo-1sx" customClass="MBCircularProgressBarView">
+                                <rect key="frame" x="214" y="88" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="S74-ea-3Te"/>
+                                    <constraint firstAttribute="height" constant="80" id="Y5U-1a-SAx"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2C4-60-m9h">
+                                <rect key="frame" x="16" y="136" width="120" height="32"/>
+                                <color key="backgroundColor" name="Starship"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="0WS-dc-Yt0"/>
+                                    <constraint firstAttribute="height" constant="32" id="Uv7-bQ-cyr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="To workout">
+                                    <color key="titleColor" name="Text Color"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2C4-60-m9h" firstAttribute="leading" secondItem="7mX-00-ePH" secondAttribute="leading" constant="16" id="156-i8-Mp4"/>
+                            <constraint firstAttribute="bottom" secondItem="Rk8-Mo-1sx" secondAttribute="bottom" constant="16" id="3mj-Pn-bfY"/>
+                            <constraint firstAttribute="bottom" secondItem="2C4-60-m9h" secondAttribute="bottom" constant="16" id="HaD-Oh-WuO"/>
+                            <constraint firstAttribute="trailing" secondItem="UvI-VT-7FJ" secondAttribute="trailing" id="Nec-24-MnN"/>
+                            <constraint firstItem="g2U-LF-Ddi" firstAttribute="leading" secondItem="7mX-00-ePH" secondAttribute="leading" constant="16" id="VXm-q6-gN5"/>
+                            <constraint firstItem="6au-Xn-6HN" firstAttribute="leading" secondItem="7mX-00-ePH" secondAttribute="leading" constant="16" id="dZL-XD-SQf"/>
+                            <constraint firstItem="6au-Xn-6HN" firstAttribute="top" secondItem="7mX-00-ePH" secondAttribute="top" constant="16" id="gLE-IK-L67"/>
+                            <constraint firstItem="UvI-VT-7FJ" firstAttribute="top" secondItem="7mX-00-ePH" secondAttribute="top" id="lB0-Cm-9N2"/>
+                            <constraint firstAttribute="trailing" secondItem="Rk8-Mo-1sx" secondAttribute="trailing" constant="16" id="oA5-6P-3BM"/>
+                            <constraint firstAttribute="bottom" secondItem="UvI-VT-7FJ" secondAttribute="bottom" id="pQA-lv-jgP"/>
+                            <constraint firstItem="g2U-LF-Ddi" firstAttribute="top" secondItem="6au-Xn-6HN" secondAttribute="bottom" constant="4" id="ptB-zN-rJO"/>
+                            <constraint firstItem="UvI-VT-7FJ" firstAttribute="leading" secondItem="7mX-00-ePH" secondAttribute="leading" id="xJ2-QX-ADs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="7mX-00-ePH" secondAttribute="trailing" id="OFz-bQ-nm9"/>
+                <constraint firstItem="7mX-00-ePH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RHr-AN-P0f"/>
+                <constraint firstAttribute="bottom" secondItem="7mX-00-ePH" secondAttribute="bottom" id="g7k-dy-fFc"/>
+                <constraint firstItem="7mX-00-ePH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="k38-Gu-yDP"/>
+            </constraints>
+            <size key="customSize" width="310" height="184"/>
+            <point key="canvasLocation" x="261.06870229007632" y="66.901408450704224"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Barbell green" width="20" height="20"/>
+        <image name="Card training" width="343" height="160"/>
+        <namedColor name="Starship">
+            <color red="0.73299998044967651" green="0.94900000095367432" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.094117647058823528" green="0.12549019607843137" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

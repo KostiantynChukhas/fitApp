@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TrainerCollectionCell" customModule="fitapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="183" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="183" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqF-fm-ZEv">
+                        <rect key="frame" x="0.0" y="0.0" width="183" height="246"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pk5-aZ-kSJ">
+                                <rect key="frame" x="0.0" y="0.0" width="183" height="246"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oy1-wi-pb7">
+                                <rect key="frame" x="147" y="8" width="28" height="28"/>
+                                <color key="backgroundColor" name="Starship"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="Hui-ee-H8T"/>
+                                    <constraint firstAttribute="height" constant="28" id="xVH-qN-L6N"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="trainer_arrow"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Surname" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3Y-4Y-Znr">
+                                <rect key="frame" x="12" y="184.66666666666666" width="159" height="19.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                                <color key="textColor" red="0.73333333329999995" green="0.94901960780000005" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ThumbsUpGold" translatesAutoresizingMaskIntoConstraints="NO" id="x6v-oh-eO2">
+                                <rect key="frame" x="12" y="210" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="SXM-mC-2sz"/>
+                                    <constraint firstAttribute="height" constant="24" id="yfz-4V-qLL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2576" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0J-Gn-6PK">
+                                <rect key="frame" x="40" y="213.66666666666666" width="33" height="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="x6v-oh-eO2" firstAttribute="top" secondItem="u3Y-4Y-Znr" secondAttribute="bottom" constant="6" id="02B-Mk-Lhe"/>
+                            <constraint firstItem="L0J-Gn-6PK" firstAttribute="leading" secondItem="x6v-oh-eO2" secondAttribute="trailing" constant="4" id="2VS-1O-eii"/>
+                            <constraint firstItem="Pk5-aZ-kSJ" firstAttribute="leading" secondItem="pqF-fm-ZEv" secondAttribute="leading" id="2nf-bK-cZc"/>
+                            <constraint firstItem="L0J-Gn-6PK" firstAttribute="centerY" secondItem="x6v-oh-eO2" secondAttribute="centerY" id="602-SR-Pj9"/>
+                            <constraint firstAttribute="bottom" secondItem="x6v-oh-eO2" secondAttribute="bottom" constant="12" id="7TB-1b-Wsq"/>
+                            <constraint firstAttribute="trailing" secondItem="Oy1-wi-pb7" secondAttribute="trailing" constant="8" id="8D7-zc-hnJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Pk5-aZ-kSJ" secondAttribute="bottom" id="Kuc-5V-gwK"/>
+                            <constraint firstAttribute="trailing" secondItem="Pk5-aZ-kSJ" secondAttribute="trailing" id="KwO-w4-MQH"/>
+                            <constraint firstItem="u3Y-4Y-Znr" firstAttribute="leading" secondItem="pqF-fm-ZEv" secondAttribute="leading" constant="12" id="SlO-7z-HYu"/>
+                            <constraint firstItem="Pk5-aZ-kSJ" firstAttribute="top" secondItem="pqF-fm-ZEv" secondAttribute="top" id="eov-Ep-P0S"/>
+                            <constraint firstItem="Oy1-wi-pb7" firstAttribute="top" secondItem="pqF-fm-ZEv" secondAttribute="top" constant="8" id="s8m-bg-OPJ"/>
+                            <constraint firstAttribute="trailing" secondItem="u3Y-4Y-Znr" secondAttribute="trailing" constant="12" id="vPb-QQ-GTE"/>
+                            <constraint firstItem="x6v-oh-eO2" firstAttribute="leading" secondItem="pqF-fm-ZEv" secondAttribute="leading" constant="12" id="vps-GE-HnW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pqF-fm-ZEv" secondAttribute="bottom" id="4AW-Xu-Svm"/>
+                <constraint firstAttribute="top" secondItem="pqF-fm-ZEv" secondAttribute="top" id="GIq-Br-D2Q"/>
+                <constraint firstAttribute="leading" secondItem="pqF-fm-ZEv" secondAttribute="leading" id="lHV-e4-erp"/>
+                <constraint firstItem="pqF-fm-ZEv" firstAttribute="trailing" secondItem="gTV-IL-0wX" secondAttribute="trailing" id="xW7-no-4R2"/>
+            </constraints>
+            <size key="customSize" width="183" height="246"/>
+            <connections>
+                <outlet property="containerView" destination="pqF-fm-ZEv" id="2I9-Bn-D1J"/>
+                <outlet property="imageView" destination="Pk5-aZ-kSJ" id="2y8-PI-POa"/>
+                <outlet property="likeImage" destination="x6v-oh-eO2" id="8Zu-jK-Lee"/>
+                <outlet property="likesCountLabel" destination="L0J-Gn-6PK" id="etD-cf-yNt"/>
+                <outlet property="nameLabel" destination="u3Y-4Y-Znr" id="XEY-Uc-N78"/>
+                <outlet property="trainerButton" destination="Oy1-wi-pb7" id="xE7-1K-3PF"/>
+            </connections>
+            <point key="canvasLocation" x="64.885496183206101" y="88.732394366197184"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ThumbsUpGold" width="24" height="24"/>
+        <image name="trainer_arrow" width="12" height="12"/>
+        <namedColor name="Starship">
+            <color red="0.73299998044967651" green="0.94900000095367432" blue="0.27500000596046448" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
